@@ -1,5 +1,8 @@
 import weka.classifiers.Classifier;
+import weka.classifiers.bayes.BayesNet;
+import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.evaluation.Evaluation;
+import weka.classifiers.functions.MultilayerPerceptron;
 import weka.classifiers.lazy.IBk;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
@@ -25,7 +28,7 @@ public class Classifiers {
         this.relation = relation;
 
         // three executions - accuracy and kappa
-        results = new double[3][2];
+        results = new double[3][3];
     }
 
     public Instances readData(String path) throws IOException {
@@ -42,6 +45,7 @@ public class Classifiers {
         String baseNameTst;
 
         for (int i = 1; i <= this.executions; i++) {
+
             for (int j = 1; j <= this.folds; j++) {
                 baseNameTra = String.format("%d_%s-%d-%dtra.arff", i, this.relation, this.folds, j);
                 baseNameTst = String.format("%d_%s-%d-%dtst.arff", i, this.relation, this.folds, j);
@@ -50,9 +54,13 @@ public class Classifiers {
                 this.testingData = this.readData(this.datasetPath + baseNameTst);
 
                 this.runKNN(i-1);
+                //this.runNaiveBayes(i-1);
+                //this.runBayesNet(i-1);
+                //this.runNeuralNet(i-1);
                 System.out.println("Finished fold " + j);
             }
             System.out.println("Finished execution " + i);
+            System.out.println("Took " + this.results[i-1][2] + " ms");
         }
 
         for (double[] result: results) {
@@ -60,8 +68,9 @@ public class Classifiers {
         }
     }
 
-    public void runKNN(int executionIndex) throws Exception {
-        this.classifier = new IBk();
+    public void runNeuralNet(int executionIndex) throws Exception {
+        this.classifier = new MultilayerPerceptron();
+
         classifier.buildClassifier(this.trainingData);
 
         Evaluation eval = new Evaluation(trainingData);
@@ -69,5 +78,44 @@ public class Classifiers {
 
         this.results[executionIndex][0] += eval.pctCorrect()/this.folds;
         this.results[executionIndex][1] += eval.kappa()/this.folds;
+    }
+
+    public void runNaiveBayes(int executionIndex) throws Exception {
+        this.classifier = new NaiveBayes();
+        classifier.buildClassifier(this.trainingData);
+
+        Evaluation eval = new Evaluation(trainingData);
+        eval.evaluateModel(this.classifier, this.testingData);
+
+        this.results[executionIndex][0] += eval.pctCorrect()/this.folds;
+        this.results[executionIndex][1] += eval.kappa()/this.folds;
+    }
+
+    public void runBayesNet(int executionIndex) throws Exception {
+        this.classifier = new BayesNet();
+        classifier.buildClassifier(this.trainingData);
+
+        Evaluation eval = new Evaluation(trainingData);
+        eval.evaluateModel(this.classifier, this.testingData);
+
+        this.results[executionIndex][0] += eval.pctCorrect()/this.folds;
+        this.results[executionIndex][1] += eval.kappa()/this.folds;
+    }
+
+    public void runKNN(int executionIndex) throws Exception {
+        this.classifier = new IBk();
+
+        double startTime = System.currentTimeMillis();
+
+        classifier.buildClassifier(this.trainingData);
+
+        Evaluation eval = new Evaluation(trainingData);
+        eval.evaluateModel(this.classifier, this.testingData);
+
+        double stopTime = System.currentTimeMillis();
+
+        this.results[executionIndex][0] += eval.pctCorrect()/this.folds;
+        this.results[executionIndex][1] += eval.kappa()/this.folds;
+        this.results[executionIndex][2] += stopTime - startTime;
     }
 }
