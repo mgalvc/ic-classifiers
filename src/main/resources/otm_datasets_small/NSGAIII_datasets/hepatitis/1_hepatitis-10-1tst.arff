@@ -1,0 +1,16 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R5,8-10,15,20'
+
+@attribute Fatigue numeric
+@attribute LiverBig numeric
+@attribute LiverFirm numeric
+@attribute SpleenPalpable numeric
+@attribute AlkPhosphate numeric
+@attribute Class {1,2}
+
+@data
+1,2,1,2,280,1
+2,2,2,2,85,2
+1,1,1,2,80,2
+2,2,2,2,102,2
+1,2,1,2,168,2
+1,2,1,2,166,1

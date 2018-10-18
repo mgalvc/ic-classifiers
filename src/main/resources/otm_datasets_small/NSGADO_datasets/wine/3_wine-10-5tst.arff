@@ -1,0 +1,24 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R1,13-14'
+
+@attribute Alcohol numeric
+@attribute Proline numeric
+@attribute Class {1,2,3}
+
+@data
+14.06,1295,1
+14.12,1280,1
+14.3,1280,1
+13.05,885,1
+14.38,1065,1
+13.05,1150,1
+13.67,630,2
+12.21,718,2
+12.99,985,2
+12.33,750,2
+12.6,562,2
+12.51,672,2
+11.61,680,2
+14.34,660,3
+13.48,620,3
+12.85,570,3
+12.96,675,3

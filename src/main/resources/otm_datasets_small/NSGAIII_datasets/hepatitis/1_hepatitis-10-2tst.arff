@@ -1,0 +1,17 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R9,15,18-20'
+
+@attribute LiverFirm numeric
+@attribute AlkPhosphate numeric
+@attribute ProTime numeric
+@attribute Histology numeric
+@attribute Class {1,2}
+
+@data
+2,48,64,1,2
+2,95,100,1,2
+1,191,46,1,2
+1,72,57,1,2
+1,44,46,1,2
+1,230,41,2,2
+1,107,38,2,1
+2,85,35,2,1

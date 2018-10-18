@@ -1,0 +1,31 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,6,8-10,13,16,20,26'
+
+@attribute Normalized-losses numeric
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Engine-location {front,rear}
+@attribute Wheel-base numeric
+@attribute Length numeric
+@attribute Curb-weight numeric
+@attribute Engine-size numeric
+@attribute Compression-ratio numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,hatchback,front,93.7,157.3,1967,90,9.4,1
+103,wagon,front,94.5,170.2,2024,97,9.4,1
+101,hatchback,front,93.7,150,1940,92,9.2,1
+168,hatchback,front,94.5,168.7,2300,98,9.4,1
+158,sedan,front,105.8,192.7,2844,136,8.5,1
+153,hatchback,front,96.3,173,2328,122,8.5,3
+161,sedan,front,107.9,186.7,3075,120,8.4,0
+89,wagon,front,97,173.5,2290,108,9,0
+161,sedan,front,107.9,186.7,3252,152,21,0
+85,sedan,front,96.5,175.4,2465,110,9,0
+188,sedan,front,101.2,176.8,2765,164,9,0
+161,hatchback,front,93.7,157.3,2004,92,9.4,2
+164,sedan,front,99.4,176.6,2824,136,8,2
+94,sedan,front,97.3,171.7,2300,109,10,2
+65,sedan,front,102.4,175.6,2414,122,8.7,-1
+128,sedan,front,94.5,165.3,1918,97,9.4,1
+186,hatchback,front,94.5,168.9,2778,151,9.5,3
+93,sedan,front,110,190.9,3515,183,21.5,-1

@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,4,7,11,13,20,23,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Aspiration {std,turbo}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Width numeric
+@attribute Curb-weight numeric
+@attribute Compression-ratio numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+168,toyota,std,rwd,64,2169,9,29,1
+113,mazda,std,fwd,64.2,1950,9,31,1
+87,toyota,std,fwd,63.6,1985,9,35,1
+125,mitsubishi,std,fwd,65.4,2365,8.5,25,1
+194,nissan,turbo,rwd,67.9,3139,7.8,17,3
+128,nissan,std,fwd,66.5,3095,9,17,0
+161,peugot,turbo,rwd,68.4,3252,21,28,0
+81,chevrolet,std,fwd,63.6,1909,9.6,38,0
+115,mazda,std,fwd,66.5,2410,8.6,26,0
+192,bmw,std,rwd,64.8,2395,8.8,23,0
+168,nissan,std,fwd,63.8,2008,9.4,31,2
+94,volkswagen,std,fwd,65.5,2275,9,27,2
+161,mitsubishi,std,fwd,64.4,1918,9.4,37,2
+110,dodge,std,fwd,64.6,2535,8.5,24,-1
+65,toyota,std,fwd,66.5,2458,8.7,27,-1
+161,peugot,turbo,rwd,68.3,3130,7,18,0

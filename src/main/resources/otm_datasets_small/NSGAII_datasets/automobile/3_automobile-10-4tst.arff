@@ -1,0 +1,31 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,5-6,8-9,14,18,26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Engine-location {front,rear}
+@attribute Wheel-base numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Bore numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+honda,two,hatchback,front,93.7,ohc,2.91,1
+nissan,four,sedan,front,94.5,ohc,3.15,1
+plymouth,four,sedan,front,93.7,ohc,2.97,1
+mitsubishi,two,hatchback,front,93,ohc,3.03,1
+chevrolet,two,hatchback,front,94.5,ohc,3.03,1
+saab,two,hatchback,front,99.1,dohc,3.54,3
+peugot,four,sedan,front,107.9,l,3.46,0
+toyota,four,hatchback,front,95.7,ohc,3.27,0
+toyota,four,wagon,front,95.7,ohc,3.05,0
+mazda,four,sedan,front,104.9,ohc,3.76,0
+toyota,four,wagon,front,95.7,ohc,3.05,0
+toyota,two,hatchback,front,98.4,ohc,3.62,2
+bmw,two,sedan,front,101.2,ohc,3.5,2
+saab,four,sedan,front,99.1,ohc,3.54,2
+volvo,four,sedan,front,109.1,ohc,3.78,-1
+toyota,four,hatchback,front,102.4,ohc,3.31,-1
+nissan,four,sedan,front,94.5,ohc,3.15,1
+saab,two,hatchback,front,99.1,ohc,2.54,3
+volvo,four,sedan,front,109.1,ohc,3.78,-1

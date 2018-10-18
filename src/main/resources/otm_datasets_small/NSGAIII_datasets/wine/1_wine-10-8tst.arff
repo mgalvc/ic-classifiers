@@ -1,0 +1,25 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R8,13-14'
+
+@attribute NonflavanoidsPhenols numeric
+@attribute Proline numeric
+@attribute Class {1,2,3}
+
+@data
+0.43,1150,1
+0.37,915,1
+0.17,1095,1
+0.32,680,1
+0.31,1270,1
+0.19,1285,1
+0.19,420,2
+0.21,410,2
+0.34,438,2
+0.66,315,2
+0.6,607,2
+0.42,434,2
+0.52,407,2
+0.34,550,3
+0.53,640,3
+0.43,695,3
+0.27,630,3
+0.48,470,3

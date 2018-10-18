@@ -1,0 +1,78 @@
+@relation 'crx-weka.filters.unsupervised.attribute.Remove-V-R2,7,9,12,14-16'
+
+@attribute A2 numeric
+@attribute A7 {v,h,bb,ff,j,z,o,dd,n}
+@attribute A9 {t,f}
+@attribute A12 {f,t}
+@attribute A14 numeric
+@attribute A15 numeric
+@attribute Class {positive,negative}
+
+@data
+2017,v,t,f,120,0,positive
+2208,h,f,t,128,0,positive
+1917,h,t,f,96,0,positive
+5458,ff,t,t,30,300,positive
+3192,h,t,f,311,300,positive
+3425,h,t,t,0,0,positive
+1942,h,t,f,80,2954,positive
+3408,v,t,t,443,0,negative
+3717,bb,t,t,280,0,negative
+225,v,t,t,268,0,negative
+25,v,t,t,120,5,negative
+2783,h,t,t,75,0,negative
+1975,v,t,t,140,5,negative
+2917,v,t,t,329,0,negative
+3375,bb,t,t,212,0,negative
+3775,h,t,t,300,5,negative
+4033,h,t,f,0,2300,positive
+44,v,t,t,0,15,positive
+32,h,t,t,393,0,positive
+1933,v,t,t,60,400,positive
+4767,bb,t,f,0,15000,positive
+3308,h,t,f,0,0,positive
+2825,bb,t,t,144,7,positive
+3317,v,t,t,380,0,positive
+4817,h,t,f,0,790,positive
+2208,v,t,f,100,0,positive
+2767,v,t,t,487,500,positive
+3817,v,t,f,520,196,positive
+205,v,t,f,40,0,positive
+185,v,t,f,120,300,positive
+2075,v,f,f,200,1000,negative
+3825,v,f,f,160,0,negative
+3192,ff,f,t,200,4,negative
+2475,h,f,f,280,1,negative
+1858,ff,f,f,80,0,negative
+2775,h,f,t,140,0,negative
+3892,v,f,t,300,2,negative
+6333,v,t,t,180,0,negative
+2217,ff,f,f,100,0,negative
+3667,v,f,t,221,0,negative
+195,v,f,t,380,0,negative
+2308,ff,f,t,100,4208,negative
+45,h,f,t,240,0,negative
+34,v,f,t,60,0,negative
+31,v,f,f,300,0,negative
+695,ff,f,f,0,0,negative
+3125,ff,f,f,176,146,negative
+1958,ff,f,f,350,769,negative
+2675,v,f,t,80,0,negative
+7483,ff,f,f,0,351,negative
+1883,ff,f,t,180,1,negative
+4725,h,t,f,333,892,positive
+6408,ff,t,f,232,100,positive
+3133,v,t,f,0,5000,positive
+4092,ff,t,f,130,1,negative
+3008,bb,t,t,132,28,negative
+4833,v,t,f,110,0,positive
+4192,h,t,f,220,948,positive
+2308,h,t,t,290,284,positive
+2033,h,t,f,50,1465,positive
+2533,v,t,t,96,5124,positive
+3017,v,t,f,330,1200,positive
+2942,h,f,t,400,108,negative
+2725,h,f,t,272,108,negative
+2108,ff,f,f,0,0,negative
+3058,h,f,t,129,3,negative
+195,v,f,f,280,364,negative

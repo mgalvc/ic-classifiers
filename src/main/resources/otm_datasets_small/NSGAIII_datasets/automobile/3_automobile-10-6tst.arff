@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-3,6-8,11-12,23,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Fuel-type {diesel,gas}
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Engine-location {front,rear}
+@attribute Width numeric
+@attribute Height numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+231,nissan,gas,hatchback,rwd,front,67.9,49.7,19,1
+154,plymouth,gas,hatchback,fwd,front,63.8,50.6,31,1
+129,mazda,gas,hatchback,fwd,front,66.5,53.7,26,1
+148,dodge,gas,sedan,fwd,front,63.8,50.6,31,1
+142,mercedes-benz,gas,convertible,rwd,front,70.5,50.8,16,3
+91,toyota,gas,hatchback,fwd,front,64.4,52.8,28,0
+106,nissan,gas,hatchback,fwd,front,65.2,54.7,27,0
+93,mercedes-benz,diesel,hardtop,rwd,front,70.3,54.9,22,0
+104,saab,gas,sedan,fwd,front,66.5,56.1,19,2
+121,chevrolet,gas,hatchback,fwd,front,60.3,53.2,47,2
+65,toyota,gas,sedan,fwd,front,66.5,54.9,29,-1
+256,volkswagen,gas,hatchback,fwd,front,64,51.4,24,3
+103,volvo,gas,sedan,rwd,front,67.2,56.2,24,-2
+134,toyota,gas,hatchback,rwd,front,65.6,52,24,2

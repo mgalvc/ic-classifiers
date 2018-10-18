@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R5,8-9,19,21,24,26'
+
+@attribute Num-of-doors {four,two}
+@attribute Engine-location {front,rear}
+@attribute Wheel-base numeric
+@attribute Stroke numeric
+@attribute Horsepower numeric
+@attribute Highway-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+four,front,93.7,3.23,68,38,1
+four,front,94.5,3.29,69,37,1
+two,front,93.7,3.41,76,34,1
+two,front,94.5,3.08,112,29,1
+four,front,105.8,3.4,110,25,1
+two,front,96.3,3.46,88,32,3
+four,front,107.9,2.19,95,24,0
+four,front,97,2.64,82,32,0
+four,front,107.9,3.52,95,33,0
+four,front,96.5,3.58,101,28,0
+four,front,101.2,3.19,121,28,0
+two,front,93.7,3.23,68,38,2
+four,front,99.4,3.4,115,22,2
+four,front,97.3,3.4,100,32,2
+four,front,102.4,3.54,92,32,-1
+two,front,94.5,3.29,69,37,1
+two,front,94.5,3.11,143,27,3
+four,front,110,3.64,123,25,-1

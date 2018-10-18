@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R3,7,12-13,16-17,19,21,26'
+
+@attribute Fuel-type {diesel,gas}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Height numeric
+@attribute Curb-weight numeric
+@attribute Engine-size numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Stroke numeric
+@attribute Horsepower numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+gas,fwd,53.7,2385,122,2bbl,3.39,84,1
+gas,fwd,54.5,1951,97,2bbl,3.29,69,1
+diesel,fwd,54.5,2017,103,idi,3.47,55,1
+gas,fwd,54.1,1900,91,2bbl,3.15,68,1
+gas,fwd,53.3,2289,110,1bbl,3.58,86,0
+diesel,rwd,56.7,3197,152,idi,3.52,95,0
+gas,fwd,52.8,2109,98,2bbl,3.03,70,0
+gas,4wd,54.9,2420,108,2bbl,2.64,82,0
+gas,rwd,52,2540,146,mpfi,3.5,116,2
+gas,4wd,55.7,2240,108,2bbl,2.64,73,2
+gas,fwd,55.7,2212,109,mpfi,3.4,85,2
+gas,rwd,57.5,3042,141,mpfi,3.15,114,-1
+gas,rwd,57.5,3157,130,mpfi,3.15,162,-1
+gas,fwd,56.1,2658,121,mpfi,3.07,110,3
+gas,rwd,49.7,3071,181,mpfi,3.27,160,3

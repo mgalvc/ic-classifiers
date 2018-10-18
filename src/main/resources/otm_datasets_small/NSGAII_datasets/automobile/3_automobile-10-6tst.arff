@@ -1,0 +1,24 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R5,7,14,18,21,26'
+
+@attribute Num-of-doors {four,two}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Bore numeric
+@attribute Horsepower numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+two,rwd,ohcv,3.43,160,1
+four,fwd,ohc,2.97,68,1
+two,fwd,ohc,3.39,84,1
+four,fwd,ohc,2.97,68,1
+two,rwd,ohcv,3.46,155,3
+four,fwd,ohc,3.19,70,0
+four,fwd,ohc,3.33,97,0
+two,rwd,ohc,3.58,123,0
+four,fwd,dohc,3.54,160,2
+two,fwd,l,2.91,48,2
+four,fwd,ohc,3.31,92,-1
+two,fwd,ohc,3.19,90,3
+four,rwd,ohc,3.78,114,-2
+two,rwd,ohc,3.62,116,2

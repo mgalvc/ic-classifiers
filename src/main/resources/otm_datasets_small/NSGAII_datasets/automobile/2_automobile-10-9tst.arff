@@ -1,0 +1,26 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,5,9,17,22,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Wheel-base numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Peak-rpm numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+129,mazda,two,98.8,2bbl,4800,1
+128,nissan,two,94.5,2bbl,5200,1
+128,nissan,two,94.5,idi,4800,1
+104,mazda,two,93.1,2bbl,5000,1
+106,honda,two,96.5,1bbl,5800,0
+161,peugot,four,107.9,idi,4150,0
+91,toyota,four,95.7,2bbl,4800,0
+85,subaru,four,96.9,2bbl,4800,0
+134,toyota,two,98.4,mpfi,4800,2
+83,subaru,two,93.3,2bbl,4400,2
+94,volkswagen,four,97.3,mpfi,5250,2
+74,volvo,four,104.3,mpfi,5400,-1
+74,volvo,four,104.3,mpfi,5100,-1
+150,saab,two,99.1,mpfi,5250,3
+194,nissan,two,91.3,mpfi,5200,3

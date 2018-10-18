@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,5,7,9,24-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Wheel-base numeric
+@attribute Highway-mpg numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+dodge,two,fwd,93.7,30,7957,1
+toyota,two,rwd,94.5,34,8238,1
+dodge,two,fwd,93.7,38,6377,1
+toyota,two,rwd,102.9,24,15998,3
+honda,two,fwd,96.5,33,7895,0
+nissan,four,fwd,97.2,34,9549,0
+honda,four,fwd,96.5,33,10295,0
+subaru,four,fwd,97.2,32,9960,0
+mazda,four,fwd,98.8,32,11245,0
+saab,four,fwd,99.1,28,12170,2
+volkswagen,two,fwd,97.3,46,7775,2
+volkswagen,four,fwd,97.3,46,7995,2
+volvo,four,rwd,109.1,25,19045,-1
+volvo,four,rwd,104.3,28,13415,-1
+plymouth,two,fwd,93.7,41,5572,1
+plymouth,four,fwd,93.7,38,6692,1
+bmw,two,rwd,101.2,28,20970,0

@@ -1,0 +1,15 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R11-13,19-20'
+
+@attribute Spiders numeric
+@attribute Ascites numeric
+@attribute Varices numeric
+@attribute Histology numeric
+@attribute Class {1,2}
+
+@data
+2,2,2,1,1
+2,2,2,1,2
+2,2,2,1,2
+2,2,2,1,2
+2,2,2,2,2
+1,1,1,2,1

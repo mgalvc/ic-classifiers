@@ -1,0 +1,17 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R2,7,12,15,20'
+
+@attribute Sex numeric
+@attribute Anorexia numeric
+@attribute Ascites numeric
+@attribute AlkPhosphate numeric
+@attribute Class {1,2}
+
+@data
+1,2,2,57,2
+2,2,2,175,2
+1,2,1,180,2
+1,2,2,84,1
+1,2,2,155,2
+2,1,2,70,2
+1,2,2,130,2
+2,2,2,81,2

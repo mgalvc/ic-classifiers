@@ -1,0 +1,28 @@
+@relation 'newthyroid-weka.filters.unsupervised.attribute.Remove-V-R2,5-6'
+
+@attribute thyroxin numeric
+@attribute TSH_value numeric
+@attribute class {3,2,1}
+
+@data
+8.4,3.6,1
+10.4,2.3,1
+11.1,2.3,1
+9.2,0.3,1
+10.4,2,1
+6.7,6.7,1
+8,4.6,1
+11.1,1.2,1
+6.8,3.3,1
+10.6,4.6,1
+7.8,3.7,1
+6.5,1.5,1
+5.7,0.9,1
+12.2,2.3,1
+6.1,0.8,1
+25.3,0.2,2
+24.1,0.1,2
+20.3,0.2,2
+2.3,9.5,3
+2.5,7.5,3
+3.4,21.5,3

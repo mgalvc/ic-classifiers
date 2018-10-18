@@ -1,0 +1,76 @@
+@relation 'crx-weka.filters.unsupervised.attribute.Remove-V-R4,7,9,12,16'
+
+@attribute A4 {u,y,l}
+@attribute A7 {v,h,bb,ff,j,z,o,dd,n}
+@attribute A9 {t,f}
+@attribute A12 {f,t}
+@attribute Class {positive,negative}
+
+@data
+u,v,t,f,positive
+u,h,f,t,positive
+u,h,t,f,positive
+u,ff,t,t,positive
+u,h,t,f,positive
+u,h,t,t,positive
+u,h,t,f,positive
+u,v,t,t,negative
+u,bb,t,t,negative
+y,v,t,t,negative
+u,v,t,t,negative
+y,h,t,t,negative
+u,v,t,t,negative
+u,v,t,t,negative
+u,bb,t,t,negative
+u,h,t,t,negative
+y,h,t,f,positive
+u,v,t,t,positive
+y,h,t,t,positive
+u,v,t,t,positive
+u,bb,t,f,positive
+u,h,t,f,positive
+y,bb,t,t,positive
+y,v,t,t,positive
+u,h,t,f,positive
+u,v,t,f,positive
+u,v,t,t,positive
+u,v,t,f,positive
+y,v,t,f,positive
+u,v,t,f,positive
+u,v,f,f,negative
+y,v,f,f,negative
+u,ff,f,t,negative
+u,h,f,f,negative
+u,ff,f,f,negative
+u,h,f,t,negative
+u,v,f,t,negative
+u,v,t,t,negative
+y,ff,f,f,negative
+u,v,f,t,negative
+u,v,f,t,negative
+u,ff,f,t,negative
+u,h,f,t,negative
+y,v,f,t,negative
+u,v,f,f,negative
+u,ff,f,f,negative
+u,ff,f,f,negative
+u,ff,f,f,negative
+u,v,f,t,negative
+y,ff,f,f,negative
+y,ff,f,t,negative
+u,h,t,f,positive
+u,ff,t,f,positive
+u,v,t,f,positive
+u,ff,t,f,negative
+y,bb,t,t,negative
+u,v,t,f,positive
+u,h,t,f,positive
+u,h,t,t,positive
+u,h,t,f,positive
+u,v,t,t,positive
+u,v,t,f,positive
+u,h,f,t,negative
+u,h,f,t,negative
+y,ff,f,f,negative
+u,h,f,t,negative
+u,v,f,f,negative

@@ -1,0 +1,32 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,5,12,14-15,18,20,22,24,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Height numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Bore numeric
+@attribute Compression-ratio numeric
+@attribute Peak-rpm numeric
+@attribute Highway-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+118,dodge,two,50.8,ohc,four,3.03,7.6,5500,30,1
+168,toyota,two,52.6,ohc,four,3.19,9,4800,34,1
+118,dodge,two,50.8,ohc,four,2.97,9.4,5500,38,1
+197,toyota,two,52,dohc,six,3.27,9.3,5200,24,3
+106,honda,two,53.3,ohc,four,3.15,9,5800,33,0
+106,nissan,four,54.7,ohc,four,3.33,8.5,5200,34,0
+85,honda,four,54.1,ohc,four,3.15,9,5800,33,0
+102,subaru,four,52.5,ohcf,four,3.62,9,5200,32,0
+115,mazda,four,55.5,ohc,four,3.39,8.6,4800,32,0
+104,saab,four,56.1,ohc,four,3.54,9.3,5250,28,2
+122,volkswagen,two,55.7,ohc,four,3.01,23,4800,46,2
+94,volkswagen,four,55.7,ohc,four,3.01,23,4800,46,2
+95,volvo,four,55.5,ohc,four,3.78,8.7,5300,25,-1
+74,volvo,four,57.5,ohc,four,3.78,9.5,5400,28,-1
+119,plymouth,two,50.8,ohc,four,2.97,9.4,5500,41,1
+154,plymouth,four,50.8,ohc,four,2.97,9.4,5500,38,1
+188,bmw,two,54.3,ohc,six,3.31,9,4250,28,0

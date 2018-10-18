@@ -1,0 +1,25 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2-3,19,22,24-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Fuel-type {diesel,gas}
+@attribute Stroke numeric
+@attribute Peak-rpm numeric
+@attribute Highway-mpg numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+nissan,gas,3.27,5200,25,18399,1
+plymouth,gas,3.23,5500,38,6229,1
+mazda,gas,3.39,4800,32,8845,1
+dodge,gas,3.23,5500,38,6692,1
+mercedes-benz,gas,3.1,4750,18,35056,3
+toyota,gas,3.03,4800,34,8358,0
+nissan,gas,3.47,5200,34,8949,0
+mercedes-benz,diesel,3.64,4350,25,28176,0
+saab,gas,3.07,5500,26,18620,2
+chevrolet,gas,3.03,5100,53,5151,2
+toyota,gas,3.54,4200,34,8948,-1
+volkswagen,gas,3.4,5500,29,9980,3
+volvo,gas,3.15,5400,28,15985,-2
+toyota,gas,3.5,4800,30,9989,2

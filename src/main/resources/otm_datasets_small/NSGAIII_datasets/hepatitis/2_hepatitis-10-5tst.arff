@@ -1,0 +1,15 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R1,10-11,18,20'
+
+@attribute Age numeric
+@attribute SpleenPalpable numeric
+@attribute Spiders numeric
+@attribute ProTime numeric
+@attribute Class {1,2}
+
+@data
+38,2,2,85,2
+42,2,2,47,2
+51,2,2,52,2
+41,2,2,74,2
+33,2,2,60,2
+34,2,2,76,2

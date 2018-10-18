@@ -1,0 +1,40 @@
+@relation 'ecoli-weka.filters.unsupervised.attribute.Remove-V-R1,6,8'
+
+@attribute Mcg numeric
+@attribute Alm1 numeric
+@attribute Site {cp,im,imS,imL,imU,om,omL,pp}
+
+@data
+67,38,cp
+2,51,cp
+44,52,cp
+4,22,cp
+32,28,cp
+54,33,cp
+36,47,cp
+25,33,cp
+43,45,cp
+35,3,cp
+51,14,cp
+25,32,cp
+61,35,cp
+39,34,cp
+44,47,im
+29,65,im
+4,82,im
+33,88,im
+71,7,im
+6,81,im
+39,72,im
+61,8,im
+76,71,imU
+77,78,imU
+58,73,imU
+86,81,imU
+77,53,om
+68,4,om
+73,51,pp
+67,37,pp
+63,7,pp
+68,44,pp
+66,5,pp

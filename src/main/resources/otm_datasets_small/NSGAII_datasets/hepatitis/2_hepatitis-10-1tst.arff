@@ -1,0 +1,14 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R5,9,18,20'
+
+@attribute Fatigue numeric
+@attribute LiverFirm numeric
+@attribute ProTime numeric
+@attribute Class {1,2}
+
+@data
+1,1,40,1
+2,2,100,2
+1,1,74,2
+2,2,90,2
+1,1,66,2
+1,1,31,1

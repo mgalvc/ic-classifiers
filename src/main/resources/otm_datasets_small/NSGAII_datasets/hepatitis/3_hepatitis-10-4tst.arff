@@ -1,0 +1,15 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R4,18-20'
+
+@attribute Antivirals numeric
+@attribute ProTime numeric
+@attribute Histology numeric
+@attribute Class {1,2}
+
+@data
+1,70,1,2
+2,73,1,2
+2,54,1,2
+1,67,2,2
+2,66,2,2
+2,57,2,2
+2,42,2,1

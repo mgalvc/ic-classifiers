@@ -1,0 +1,21 @@
+@relation 'tae-weka.filters.unsupervised.attribute.Remove-V-R3,6'
+
+@attribute Course numeric
+@attribute Class {1,2,3}
+
+@data
+2,3
+11,3
+13,2
+2,1
+5,3
+3,3
+22,3
+7,2
+15,2
+3,1
+16,1
+17,2
+3,1
+8,2
+3,1

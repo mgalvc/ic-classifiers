@@ -1,0 +1,22 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R3,5,8-9,11,26'
+
+@attribute Fuel-type {diesel,gas}
+@attribute Num-of-doors {four,two}
+@attribute Engine-location {front,rear}
+@attribute Wheel-base numeric
+@attribute Width numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+gas,four,front,96.3,65.4,1
+gas,two,front,94.5,63.8,1
+gas,four,front,94.5,63.8,1
+gas,four,front,97,65.4,0
+gas,four,front,107.9,68.4,0
+gas,four,front,113,69.6,0
+gas,two,front,86.6,63.9,2
+gas,two,front,98.4,65.6,2
+gas,four,front,99.8,66.2,2
+diesel,four,front,115.6,71.7,-1
+gas,four,front,104.5,66.5,-1
+gas,two,front,102.9,67.7,3

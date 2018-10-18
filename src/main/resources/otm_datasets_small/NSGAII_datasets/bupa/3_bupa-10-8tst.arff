@@ -1,0 +1,41 @@
+@relation 'bupa-weka.filters.unsupervised.attribute.Remove-V-R2,7'
+
+@attribute Alkphos numeric
+@attribute Selector {1,2}
+
+@data
+92,1
+78,2
+55,2
+60,1
+78,1
+47,1
+54,2
+50,2
+48,2
+67,2
+45,2
+67,1
+99,2
+95,1
+57,2
+101,2
+76,2
+45,2
+78,2
+70,2
+63,1
+50,1
+70,1
+115,1
+79,2
+78,2
+56,2
+57,2
+54,2
+59,2
+61,1
+69,1
+36,1
+66,1
+138,1

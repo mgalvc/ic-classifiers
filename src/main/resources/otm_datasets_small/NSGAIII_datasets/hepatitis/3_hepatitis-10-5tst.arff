@@ -1,0 +1,17 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R6,9-10,12,14,18,20'
+
+@attribute Malaise numeric
+@attribute LiverFirm numeric
+@attribute SpleenPalpable numeric
+@attribute Ascites numeric
+@attribute Bilirubin numeric
+@attribute ProTime numeric
+@attribute Class {1,2}
+
+@data
+2,2,2,2,0.7,85,2
+2,2,2,2,0.9,47,2
+1,2,2,2,1,52,2
+1,2,2,2,0.7,74,2
+2,2,2,2,1,60,2
+2,1,2,2,0.6,76,2

@@ -1,0 +1,77 @@
+@relation 'crx-weka.filters.unsupervised.attribute.Remove-V-R1-2,9,11-12,16'
+
+@attribute A1 {b,a}
+@attribute A2 numeric
+@attribute A9 {t,f}
+@attribute A11 numeric
+@attribute A12 {f,t}
+@attribute Class {positive,negative}
+
+@data
+b,2783,t,5,t,positive
+b,3208,t,0,t,positive
+a,4583,t,7,t,positive
+b,5658,t,17,t,positive
+b,4208,t,6,t,positive
+b,495,t,15,t,positive
+b,2725,t,12,t,positive
+b,2775,t,2,f,positive
+b,3958,t,6,t,positive
+b,2317,t,0,f,positive
+b,4325,t,11,f,positive
+b,3167,t,9,f,positive
+a,2042,t,1,f,positive
+b,2667,t,1,t,positive
+b,34,t,0,t,negative
+a,2842,t,0,f,positive
+a,6058,t,0,t,positive
+b,27,t,0,t,positive
+a,2242,t,7,f,positive
+b,4875,t,9,f,positive
+b,3517,t,7,f,positive
+a,225,f,0,f,positive
+b,2517,t,7,f,positive
+b,20,f,0,t,negative
+a,5217,f,0,f,negative
+b,1858,f,0,f,negative
+a,1608,f,1,f,negative
+a,1592,f,0,f,negative
+b,1625,f,0,f,negative
+a,3483,f,0,t,negative
+a,3908,f,0,f,negative
+a,3675,f,0,f,negative
+a,2275,f,0,f,negative
+b,2625,f,0,f,negative
+b,4317,f,0,t,negative
+b,2617,f,0,t,negative
+b,35,f,0,t,negative
+b,2042,f,0,f,negative
+b,2525,f,0,f,negative
+b,2308,f,11,f,negative
+b,3617,f,0,f,negative
+a,23,f,1,f,negative
+a,3042,f,3,f,negative
+b,2108,f,0,f,negative
+b,2067,f,0,f,negative
+b,2817,f,0,f,negative
+b,245,f,0,t,negative
+b,3925,t,14,f,positive
+a,4433,t,0,f,positive
+a,25,t,6,f,positive
+b,2675,t,0,f,positive
+a,3575,t,4,f,positive
+a,2808,t,0,f,positive
+a,4608,t,8,t,positive
+b,2342,t,0,f,negative
+b,2267,f,1,t,negative
+b,2217,f,0,f,negative
+b,1883,f,0,f,negative
+a,3875,f,0,f,negative
+b,3242,f,0,f,negative
+b,3417,f,0,t,negative
+b,2408,f,0,t,negative
+a,235,f,0,t,negative
+b,3208,f,0,t,negative
+b,3033,f,0,t,negative
+b,2108,f,0,f,negative
+a,2267,f,2,t,negative

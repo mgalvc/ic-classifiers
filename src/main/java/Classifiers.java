@@ -20,7 +20,7 @@ public class Classifiers {
     private String datasetPath;
     private String relation;
     private final int folds = 10;
-    private final int executions = 3;
+    public int executions = 3;
     private double[][] results;
 
     private enum ClassifierType {
@@ -45,19 +45,24 @@ public class Classifiers {
         return data;
     }
 
-    public void run() throws Exception {
+    public void run(boolean isOptimized) throws Exception {
         String baseNameTra;
         String baseNameTst;
 
         for (int i = 1; i <= this.executions; i++) {
             for (int j = 1; j <= this.folds; j++) {
-                baseNameTra = String.format("%d_%s-%d-%dtra.arff", i, this.relation, this.folds, j);
-                baseNameTst = String.format("%d_%s-%d-%dtst.arff", i, this.relation, this.folds, j);
+                if (isOptimized) {
+                    baseNameTra = String.format("%d_%s-%d-%dtra.arff", i, this.relation, this.folds, j);
+                    baseNameTst = String.format("%d_%s-%d-%dtst.arff", i, this.relation, this.folds, j);
+                } else {
+                    baseNameTra = String.format("%s-%d-%dtra.arff", this.relation, this.folds, j);
+                    baseNameTst = String.format("%s-%d-%dtst.arff", this.relation, this.folds, j);
+                }
 
                 this.trainingData = this.readData(this.datasetPath + baseNameTra);
                 this.testingData = this.readData(this.datasetPath + baseNameTst);
 
-                this.runClassifier(ClassifierType.KNN, i-1);
+                this.runClassifier(ClassifierType.NEURAL, i-1);
                 System.out.println("Finished fold " + j);
             }
 

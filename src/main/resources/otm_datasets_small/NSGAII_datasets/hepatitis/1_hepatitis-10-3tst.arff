@@ -1,0 +1,15 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R8,12,17,20'
+
+@attribute LiverBig numeric
+@attribute Ascites numeric
+@attribute AlbuMin numeric
+@attribute Class {1,2}
+
+@data
+2,2,4,2
+2,2,3.8,2
+2,2,4.4,2
+2,2,4,2
+2,2,3.4,2
+2,2,4,2
+2,2,4,2

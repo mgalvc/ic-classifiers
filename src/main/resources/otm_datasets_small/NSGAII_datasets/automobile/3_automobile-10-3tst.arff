@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,7,10,16,20,22,25-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Length numeric
+@attribute Engine-size numeric
+@attribute Compression-ratio numeric
+@attribute Peak-rpm numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+dodge,fwd,157.3,98,7.6,5500,7957,1
+toyota,rwd,168.7,98,9,4800,8238,1
+dodge,fwd,157.3,90,9.4,5500,6377,1
+toyota,rwd,183.5,171,9.3,5200,15998,3
+honda,fwd,167.5,110,9,5800,7895,0
+nissan,fwd,173.4,120,8.5,5200,9549,0
+honda,fwd,175.4,110,9,5800,10295,0
+subaru,fwd,172,108,9,5200,9960,0
+mazda,fwd,177.8,122,8.6,4800,11245,0
+saab,fwd,186.6,121,9.3,5250,12170,2
+volkswagen,fwd,171.7,97,23,4800,7775,2
+volkswagen,fwd,171.7,97,23,4800,7995,2
+volvo,rwd,188.8,141,8.7,5300,19045,-1
+volvo,rwd,188.8,141,9.5,5400,13415,-1
+plymouth,fwd,157.3,90,9.4,5500,5572,1
+plymouth,fwd,167.3,90,9.4,5500,6692,1
+bmw,rwd,176.8,164,9,4250,20970,0

@@ -1,0 +1,25 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R9,13-14'
+
+@attribute Proanthocyanins numeric
+@attribute Proline numeric
+@attribute Class {1,2,3}
+
+@data
+1.97,1450,1
+1.98,1290,1
+2.38,1510,1
+2.96,1547,1
+1.35,1285,1
+1.95,1515,1
+0.42,750,2
+1.65,886,2
+1.64,480,2
+0.83,372,2
+1.77,352,2
+1.9,342,2
+1.35,580,2
+1.02,550,3
+1.25,500,3
+1.54,750,3
+1.35,835,3
+1.35,560,3

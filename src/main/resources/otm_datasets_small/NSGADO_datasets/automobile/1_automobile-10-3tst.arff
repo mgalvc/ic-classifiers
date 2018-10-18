@@ -1,0 +1,27 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,5,11,14,23,26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Width numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+dodge,two,63.8,ohc,24,1
+toyota,two,64,ohc,29,1
+dodge,two,63.8,ohc,31,1
+toyota,two,67.7,dohc,19,3
+honda,two,65.2,ohc,27,0
+nissan,four,65.2,ohc,27,0
+honda,four,62.5,ohc,27,0
+subaru,four,65.4,ohcf,26,0
+mazda,four,66.5,ohc,26,0
+saab,four,66.5,ohc,21,2
+volkswagen,two,65.5,ohc,37,2
+volkswagen,four,65.5,ohc,37,2
+volvo,four,68.8,ohc,19,-1
+volvo,four,67.2,ohc,23,-1
+plymouth,two,63.8,ohc,37,1
+plymouth,four,63.8,ohc,31,1
+bmw,two,64.8,ohc,21,0

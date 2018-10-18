@@ -1,0 +1,35 @@
+@relation 'heart-weka.filters.unsupervised.attribute.Remove-V-R4,10,12,14'
+
+@attribute RestBloodPressure numeric
+@attribute Oldpeak numeric
+@attribute MajorVessels numeric
+@attribute Class {1,2}
+
+@data
+130,24,3,2
+134,26,2,2
+138,0,0,1
+120,0,0,1
+110,0,1,2
+120,14,1,2
+120,0,0,1
+120,6,0,1
+104,3,0,1
+120,16,0,2
+150,8,0,2
+130,0,0,2
+140,2,0,1
+110,0,0,1
+120,0,0,1
+122,32,2,2
+117,14,2,2
+132,0,0,1
+128,3,2,2
+138,2,0,1
+124,0,2,1
+130,35,0,1
+110,28,1,2
+140,0,0,1
+130,14,1,2
+130,6,0,1
+172,5,0,1

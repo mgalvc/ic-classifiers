@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,4,6,8,11,23,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Aspiration {std,turbo}
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Engine-location {front,rear}
+@attribute Width numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+168,toyota,std,sedan,front,64,29,1
+113,mazda,std,sedan,front,64.2,31,1
+87,toyota,std,hatchback,front,63.6,35,1
+125,mitsubishi,std,sedan,front,65.4,25,1
+194,nissan,turbo,hatchback,front,67.9,17,3
+128,nissan,std,sedan,front,66.5,17,0
+161,peugot,turbo,sedan,front,68.4,28,0
+81,chevrolet,std,sedan,front,63.6,38,0
+115,mazda,std,sedan,front,66.5,26,0
+192,bmw,std,sedan,front,64.8,23,0
+168,nissan,std,hardtop,front,63.8,31,2
+94,volkswagen,std,sedan,front,65.5,27,2
+161,mitsubishi,std,hatchback,front,64.4,37,2
+110,dodge,std,wagon,front,64.6,24,-1
+65,toyota,std,hatchback,front,66.5,27,-1
+161,peugot,turbo,sedan,front,68.3,18,0

@@ -1,0 +1,17 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R2,11-12,16,20'
+
+@attribute Sex numeric
+@attribute Spiders numeric
+@attribute Ascites numeric
+@attribute Sgot numeric
+@attribute Class {1,2}
+
+@data
+1,2,2,144,2
+2,1,2,55,2
+1,1,1,53,2
+1,1,2,23,1
+1,2,2,225,2
+2,1,2,24,2
+1,1,2,140,2
+2,1,2,19,2

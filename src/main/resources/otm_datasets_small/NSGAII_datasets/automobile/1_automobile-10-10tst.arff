@@ -1,0 +1,27 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,4,13,24,26'
+
+@attribute Normalized-losses numeric
+@attribute Aspiration {std,turbo}
+@attribute Curb-weight numeric
+@attribute Highway-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,std,1967,38,1
+103,std,2024,37,1
+101,std,1940,34,1
+168,std,2300,29,1
+158,std,2844,25,1
+153,std,2328,32,3
+161,std,3075,24,0
+89,std,2290,32,0
+161,turbo,3252,33,0
+85,std,2465,28,0
+188,std,2765,28,0
+161,std,2004,38,2
+164,std,2824,22,2
+94,std,2300,32,2
+65,std,2414,32,-1
+128,std,1918,37,1
+186,std,2778,27,3
+93,turbo,3515,25,-1

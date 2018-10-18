@@ -1,0 +1,17 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R5-6,17,19-20'
+
+@attribute Fatigue numeric
+@attribute Malaise numeric
+@attribute AlbuMin numeric
+@attribute Histology numeric
+@attribute Class {1,2}
+
+@data
+1,2,4.9,1,2
+1,2,2.7,1,2
+1,1,2.9,2,2
+2,2,4.2,2,1
+2,2,3.6,2,2
+1,1,4.1,2,2
+2,2,3.5,2,2
+1,2,4.1,2,2

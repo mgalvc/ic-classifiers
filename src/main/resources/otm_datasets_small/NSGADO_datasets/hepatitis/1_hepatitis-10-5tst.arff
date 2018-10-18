@@ -1,0 +1,12 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R15,20'
+
+@attribute AlkPhosphate numeric
+@attribute Class {1,2}
+
+@data
+53,2
+60,2
+78,2
+81,2
+46,2
+30,2

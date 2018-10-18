@@ -2,10 +2,11 @@ public class Runner {
 
     public void run() throws Exception {
         final ClassLoader classLoader = getClass().getClassLoader();
-        String datasetPath = "otm_datasets_small/NSGADO_datasets/abalone/";
-        Classifiers cls = new Classifiers(classLoader.getResource(datasetPath).getPath(), "abalone");
+        String relation = "crx";
+        String datasetPath = "datasets_small/" + relation + "/";
+        Classifiers cls = new Classifiers(classLoader.getResource(datasetPath).getPath(), relation);
 
-        cls.run();
+        cls.run(false);
     }
 
     public static void main(String[] args) throws Exception {

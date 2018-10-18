@@ -1,0 +1,25 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R11,13-14'
+
+@attribute Hue numeric
+@attribute Proline numeric
+@attribute Class {1,2,3}
+
+@data
+1.05,1450,1
+1.02,1290,1
+1.25,1510,1
+1.2,1547,1
+1.02,1285,1
+1.09,1515,1
+1.02,750,2
+0.99,886,2
+1.08,480,2
+0.7,372,2
+0.69,352,2
+0.89,342,2
+0.79,580,2
+0.91,550,3
+0.59,500,3
+0.74,750,3
+0.59,835,3
+0.61,560,3

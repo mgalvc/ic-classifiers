@@ -1,0 +1,25 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R5,9-10,13-14,18,20,26'
+
+@attribute Num-of-doors {four,two}
+@attribute Wheel-base numeric
+@attribute Length numeric
+@attribute Curb-weight numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Bore numeric
+@attribute Compression-ratio numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+four,93.7,157.3,1989,ohc,2.97,9.4,1
+two,94.5,168.7,2265,dohc,3.24,9.4,1
+two,93.7,157.3,1876,ohc,2.97,9.41,1
+two,93.1,159.1,1890,ohc,3.03,9,1
+four,96.9,173.6,2650,ohcf,3.62,7.7,0
+four,95.7,166.3,2275,ohc,3.27,22.5,0
+four,96.5,163.4,2010,ohc,2.91,9.2,0
+four,100.4,184.6,3296,ohcv,3.43,9,0
+four,97,172,2510,ohcf,3.62,7.7,0
+two,93.7,157.3,1944,ohc,2.97,9.4,2
+two,98.4,176.2,2536,ohc,3.62,9.3,2
+four,96.3,172.4,2403,ohc,3.17,7.5,-1
+four,110,190.9,3750,ohc,3.58,21.5,-1

@@ -1,0 +1,26 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,5,11,13,17,21-23,26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Width numeric
+@attribute Curb-weight numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Horsepower numeric
+@attribute Peak-rpm numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+dodge,four,63.8,1989,2bbl,68,5500,31,1
+toyota,two,64,2265,mpfi,112,6600,26,1
+dodge,two,63.8,1876,2bbl,68,5500,37,1
+mazda,two,64.2,1890,2bbl,68,5000,30,1
+subaru,four,65.4,2650,mpfi,111,4800,23,0
+toyota,four,64.4,2275,idi,56,4500,34,0
+honda,four,64,2010,1bbl,76,6000,30,0
+nissan,four,66.5,3296,mpfi,152,5200,17,0
+subaru,four,65.4,2510,mpfi,111,4800,24,0
+mitsubishi,two,64.4,1944,2bbl,68,5500,31,2
+toyota,two,65.6,2536,mpfi,116,4800,24,2
+mitsubishi,four,65.4,2403,spdi,116,5500,23,-1
+mercedes-benz,four,70.3,3750,idi,123,4350,22,-1

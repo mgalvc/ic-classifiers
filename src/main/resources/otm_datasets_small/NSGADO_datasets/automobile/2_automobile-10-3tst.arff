@@ -1,0 +1,27 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,5,12,15-16,26'
+
+@attribute Normalized-losses numeric
+@attribute Num-of-doors {four,two}
+@attribute Height numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Engine-size numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+118,two,50.8,four,98,1
+168,two,52.6,four,98,1
+118,two,50.8,four,90,1
+197,two,52,six,171,3
+106,two,53.3,four,110,0
+106,four,54.7,four,120,0
+85,four,54.1,four,110,0
+102,four,52.5,four,108,0
+115,four,55.5,four,122,0
+104,four,56.1,four,121,2
+122,two,55.7,four,97,2
+94,four,55.7,four,97,2
+95,four,55.5,four,141,-1
+74,four,57.5,four,141,-1
+119,two,50.8,four,90,1
+154,four,50.8,four,90,1
+188,two,54.3,six,164,0

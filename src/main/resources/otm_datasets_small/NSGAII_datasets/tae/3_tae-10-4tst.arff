@@ -1,0 +1,22 @@
+@relation 'tae-weka.filters.unsupervised.attribute.Remove-V-R1-2,6'
+
+@attribute Native numeric
+@attribute Instructor numeric
+@attribute Class {1,2,3}
+
+@data
+1,23,3
+2,18,3
+2,6,3
+2,25,2
+2,22,1
+2,11,1
+2,22,2
+2,13,2
+2,7,2
+2,22,1
+1,23,3
+2,20,1
+2,20,3
+2,22,2
+2,10,1

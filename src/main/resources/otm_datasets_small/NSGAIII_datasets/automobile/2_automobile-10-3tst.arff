@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R5,9,11,13-14,17,23,26'
+
+@attribute Num-of-doors {four,two}
+@attribute Wheel-base numeric
+@attribute Width numeric
+@attribute Curb-weight numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+two,93.7,63.8,2128,ohc,mpfi,24,1
+two,94.5,64,2204,ohc,2bbl,29,1
+two,93.7,63.8,1876,ohc,2bbl,31,1
+two,102.9,67.7,3016,dohc,mpfi,19,3
+two,96.5,65.2,2236,ohc,1bbl,27,0
+four,97.2,65.2,2302,ohc,2bbl,27,0
+four,96.5,62.5,2372,ohc,1bbl,27,0
+four,97.2,65.4,2340,ohcf,mpfi,26,0
+four,98.8,66.5,2425,ohc,2bbl,26,0
+four,99.1,66.5,2695,ohc,mpfi,21,2
+two,97.3,65.5,2261,ohc,idi,37,2
+four,97.3,65.5,2264,ohc,idi,37,2
+four,109.1,68.8,3049,ohc,mpfi,19,-1
+four,104.3,67.2,3034,ohc,mpfi,23,-1
+two,93.7,63.8,1918,ohc,2bbl,37,1
+four,93.7,63.8,1989,ohc,2bbl,31,1
+two,101.2,64.8,2710,ohc,mpfi,21,0

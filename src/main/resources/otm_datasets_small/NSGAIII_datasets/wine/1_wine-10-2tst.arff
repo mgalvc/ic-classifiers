@@ -1,0 +1,26 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R5,7,13-14'
+
+@attribute Magnesium numeric
+@attribute flavanoids numeric
+@attribute Proline numeric
+@attribute Class {1,2,3}
+
+@data
+89,2.76,1320,1
+116,3.03,845,1
+126,3.17,780,1
+132,2.74,1235,1
+100,2.98,920,1
+110,2.68,880,1
+101,1.09,680,2
+104,1.75,355,2
+86,2.03,392,2
+112,1.32,500,2
+78,1.58,630,2
+94,2.21,520,2
+99,1.94,450,2
+122,1.25,630,3
+89,0.5,780,3
+112,0.78,855,3
+86,0.65,625,3
+98,0.83,675,3

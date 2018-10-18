@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,4,11,13,20,23,26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Aspiration {std,turbo}
+@attribute Width numeric
+@attribute Curb-weight numeric
+@attribute Compression-ratio numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+dodge,std,63.8,1967,9.4,31,1
+nissan,std,63.8,2024,9.4,31,1
+honda,std,64,1940,9.2,30,1
+toyota,std,64,2300,9.4,26,1
+audi,std,71.4,2844,8.5,19,1
+mitsubishi,std,65.4,2328,8.5,25,3
+peugot,std,68.4,3075,8.4,19,0
+subaru,std,65.4,2290,9,28,0
+peugot,turbo,68.4,3252,21,28,0
+honda,std,65.2,2465,9,24,0
+bmw,std,64.8,2765,9,21,0
+mitsubishi,std,64.4,2004,9.4,31,2
+audi,std,66.4,2824,8,18,2
+volkswagen,std,65.5,2300,10,26,2
+toyota,std,66.5,2414,8.7,27,-1
+nissan,std,63.8,1918,9.4,31,1
+porsche,std,68.3,2778,9.5,19,3
+mercedes-benz,turbo,70.3,3515,21.5,22,-1

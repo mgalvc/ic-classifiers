@@ -1,0 +1,86 @@
+@relation 'pima-weka.filters.unsupervised.attribute.Remove-V-R2-4,6,8-9'
+
+@attribute Plas numeric
+@attribute Pres numeric
+@attribute Skin numeric
+@attribute Mass numeric
+@attribute Age numeric
+@attribute Class {tested_negative,tested_positive}
+
+@data
+148,72,35,33.6,50,tested_positive
+152,90,33,26.8,43,tested_positive
+108,80,0,27,52,tested_positive
+176,86,27,33.3,52,tested_positive
+100,78,25,36.6,46,tested_positive
+164,78,0,32.8,45,tested_positive
+182,74,0,30.5,29,tested_positive
+170,64,37,34.5,30,tested_positive
+118,84,47,45.8,31,tested_positive
+107,62,30,36.6,25,tested_positive
+174,88,37,44.5,24,tested_positive
+140,94,0,32.7,45,tested_positive
+167,74,17,23.4,33,tested_positive
+168,88,42,38.2,40,tested_positive
+112,82,24,28.2,50,tested_positive
+146,70,38,28,29,tested_positive
+158,90,0,31.6,66,tested_positive
+170,74,31,44,43,tested_positive
+164,84,21,30.8,32,tested_positive
+117,62,12,29.7,30,tested_positive
+163,72,41,40.9,47,tested_positive
+196,76,36,36.5,29,tested_positive
+111,72,47,37.1,56,tested_positive
+124,72,0,27.6,29,tested_positive
+105,100,36,43.3,45,tested_positive
+124,76,24,28.7,52,tested_positive
+115,64,22,30.8,21,tested_negative
+104,64,23,27.8,23,tested_negative
+91,54,25,25.2,23,tested_negative
+151,62,31,35.5,28,tested_negative
+85,65,0,39.6,27,tested_negative
+111,65,0,24.6,31,tested_negative
+124,74,36,27.8,30,tested_negative
+97,70,15,18.2,21,tested_negative
+0,48,20,24.7,22,tested_negative
+82,64,13,21.2,23,tested_negative
+129,80,0,31.2,29,tested_negative
+89,90,30,33.5,42,tested_negative
+128,82,17,27.5,22,tested_negative
+107,80,0,24.6,34,tested_negative
+90,68,8,24.5,36,tested_negative
+137,84,27,27.3,59,tested_negative
+89,74,16,30.4,38,tested_negative
+131,68,21,33.1,28,tested_negative
+144,58,28,29.5,37,tested_negative
+112,72,0,23.6,58,tested_negative
+106,56,27,29,22,tested_negative
+94,64,25,33.3,41,tested_negative
+118,58,36,33.3,23,tested_negative
+98,58,33,34,43,tested_negative
+90,78,0,42.7,21,tested_negative
+89,62,0,22.5,33,tested_negative
+103,72,32,37.7,55,tested_negative
+91,62,0,27.3,22,tested_negative
+82,70,0,21.1,25,tested_negative
+0,74,20,27.7,21,tested_negative
+78,70,0,32.5,39,tested_negative
+137,68,14,24.8,21,tested_negative
+121,78,39,39,28,tested_negative
+122,86,0,34.7,33,tested_negative
+191,68,15,30.9,34,tested_negative
+99,0,0,25,22,tested_negative
+139,64,35,28.6,26,tested_negative
+125,68,0,24.7,21,tested_negative
+139,62,17,22.1,21,tested_negative
+127,88,11,34.5,28,tested_negative
+111,60,0,26.2,23,tested_negative
+0,68,35,32,22,tested_negative
+61,82,28,34.4,46,tested_negative
+138,82,0,40.1,28,tested_negative
+84,64,23,36.9,28,tested_negative
+116,74,15,26.3,24,tested_negative
+108,64,0,30.8,21,tested_negative
+183,94,0,40.8,45,tested_negative
+114,74,0,24.9,57,tested_negative
+93,100,39,43.4,35,tested_negative

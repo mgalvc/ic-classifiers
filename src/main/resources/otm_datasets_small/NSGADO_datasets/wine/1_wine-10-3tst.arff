@@ -1,0 +1,25 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R2,10,14'
+
+@attribute MalicAcid numeric
+@attribute ColorIntensity numeric
+@attribute Class {1,2,3}
+
+@data
+1.71,5.64,1
+1.59,8.7,1
+1.5,5.7,1
+1.65,4.25,1
+1.73,6.25,1
+1.7,6.38,1
+0.94,1.95,2
+1.52,2.6,2
+2.08,3.3,2
+1.29,2.7,2
+3.74,2.9,2
+1.39,2.9,2
+2.16,2.76,2
+2.31,5.7,3
+5.04,4.9,3
+4.12,9.01,3
+3.26,5.88,3
+3.03,5.5,3

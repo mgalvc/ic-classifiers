@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,6,8,13-14,16,18,25-26'
+
+@attribute Normalized-losses numeric
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Engine-location {front,rear}
+@attribute Curb-weight numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Engine-size numeric
+@attribute Bore numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+129,hatchback,front,2385,ohc,122,3.39,10595,1
+128,sedan,front,1951,ohc,97,3.15,7299,1
+128,sedan,front,2017,ohc,103,2.99,7099,1
+104,hatchback,front,1900,ohc,91,3.03,6095,1
+106,hatchback,front,2289,ohc,110,3.15,9095,0
+161,sedan,front,3197,l,152,3.7,13200,0
+91,hatchback,front,2109,ohc,98,3.19,7198,0
+85,wagon,front,2420,ohcf,108,3.62,8013,0
+134,hardtop,front,2540,ohc,146,3.62,8449,2
+83,hatchback,front,2240,ohcf,108,3.62,7603,2
+94,sedan,front,2212,ohc,109,3.19,8195,2
+74,wagon,front,3042,ohc,141,3.78,16515,-1
+74,wagon,front,3157,ohc,130,3.62,18950,-1
+150,hatchback,front,2658,ohc,121,3.54,11850,3
+194,hatchback,front,3071,ohcv,181,3.43,17199,3

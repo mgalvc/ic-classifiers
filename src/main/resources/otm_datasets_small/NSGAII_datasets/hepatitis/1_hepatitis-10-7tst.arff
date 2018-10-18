@@ -1,0 +1,12 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R10,20'
+
+@attribute SpleenPalpable numeric
+@attribute Class {1,2}
+
+@data
+2,2
+2,2
+2,2
+2,1
+2,1
+2,2

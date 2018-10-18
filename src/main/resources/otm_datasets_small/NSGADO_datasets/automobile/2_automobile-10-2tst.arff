@@ -1,0 +1,23 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,3,5,13,20,24,26'
+
+@attribute Normalized-losses numeric
+@attribute Fuel-type {diesel,gas}
+@attribute Num-of-doors {four,two}
+@attribute Curb-weight numeric
+@attribute Compression-ratio numeric
+@attribute Highway-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+125,gas,four,2403,7.5,30,1
+128,gas,two,1889,9.4,37,1
+103,gas,four,2037,9.4,37,1
+89,gas,four,2455,9,31,0
+161,gas,four,3075,8.4,24,0
+145,gas,four,4066,8.1,19,0
+137,gas,two,1713,9.6,54,2
+134,gas,two,2679,9.3,30,2
+164,gas,four,2337,10,30,2
+93,diesel,four,3770,21.5,25,-1
+90,gas,four,3131,9.2,24,-1
+197,gas,two,2976,9.3,24,3

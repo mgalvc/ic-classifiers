@@ -1,0 +1,30 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,4,8,15-16,21-22,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Aspiration {std,turbo}
+@attribute Engine-location {front,rear}
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Engine-size numeric
+@attribute Horsepower numeric
+@attribute Peak-rpm numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+107,honda,std,front,four,110,100,5500,1
+113,mazda,std,front,four,91,68,5000,1
+158,audi,turbo,front,five,131,140,5500,1
+125,mitsubishi,std,front,four,122,88,5000,1
+101,honda,std,front,four,92,76,6000,1
+145,dodge,turbo,front,four,156,145,5000,3
+91,toyota,std,front,four,98,70,4800,0
+102,subaru,std,front,four,108,82,4400,0
+115,mazda,std,front,four,122,84,4800,0
+102,subaru,std,front,four,108,82,4800,0
+91,toyota,std,front,four,98,70,4800,0
+134,toyota,std,front,four,146,116,4800,2
+94,volkswagen,turbo,front,four,97,68,4500,2
+83,subaru,std,front,four,97,69,4900,2
+65,toyota,turbo,front,four,110,73,4500,-1
+95,volvo,std,front,six,173,134,5500,-1
+103,volvo,turbo,front,four,130,162,5100,-2

@@ -1,0 +1,14 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R6,16,20'
+
+@attribute Malaise numeric
+@attribute Sgot numeric
+@attribute Class {1,2}
+
+@data
+2,18,2
+2,92,2
+2,15,2
+1,69,2
+1,92,2
+2,181,2
+2,19,1

@@ -1,0 +1,27 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,4,8,11,20,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Aspiration {std,turbo}
+@attribute Engine-location {front,rear}
+@attribute Width numeric
+@attribute Compression-ratio numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+168,toyota,std,front,64,9,1
+113,mazda,std,front,64.2,9,1
+87,toyota,std,front,63.6,9,1
+125,mitsubishi,std,front,65.4,8.5,1
+194,nissan,turbo,front,67.9,7.8,3
+128,nissan,std,front,66.5,9,0
+161,peugot,turbo,front,68.4,21,0
+81,chevrolet,std,front,63.6,9.6,0
+115,mazda,std,front,66.5,8.6,0
+192,bmw,std,front,64.8,8.8,0
+168,nissan,std,front,63.8,9.4,2
+94,volkswagen,std,front,65.5,9,2
+161,mitsubishi,std,front,64.4,9.4,2
+110,dodge,std,front,64.6,8.5,-1
+65,toyota,std,front,66.5,8.7,-1
+161,peugot,turbo,front,68.3,7,0

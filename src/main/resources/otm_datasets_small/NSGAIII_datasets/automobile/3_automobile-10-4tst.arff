@@ -1,0 +1,30 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,5,8,12,19,24,26'
+
+@attribute Normalized-losses numeric
+@attribute Num-of-doors {four,two}
+@attribute Engine-location {front,rear}
+@attribute Height numeric
+@attribute Stroke numeric
+@attribute Highway-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+101,two,front,52.6,3.07,42,1
+122,four,front,54.5,3.29,37,1
+154,four,front,50.8,3.23,38,1
+161,two,front,50.8,3.39,30,1
+98,two,front,52,3.11,43,1
+150,two,front,56.1,3.07,26,3
+161,four,front,56.7,3.19,24,0
+91,four,front,52.8,3.35,47,0
+91,four,front,59.1,3.03,32,0
+118,four,front,54.4,3.16,27,0
+77,four,front,59.1,3.03,37,0
+134,two,front,52,3.5,30,2
+192,two,front,54.3,2.8,29,2
+104,four,front,56.1,3.07,28,2
+95,four,front,55.5,3.15,25,-1
+65,four,front,53.9,3.54,32,-1
+122,four,front,54.5,3.29,37,1
+150,two,front,56.1,2.07,28,3
+95,four,front,55.5,3.15,28,-1

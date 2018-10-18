@@ -1,0 +1,76 @@
+@relation 'crx-weka.filters.unsupervised.attribute.Remove-V-R1,3,9-11,13,16'
+
+@attribute A1 {b,a}
+@attribute A3 numeric
+@attribute A9 {t,f}
+@attribute A10 {t,f}
+@attribute A11 numeric
+@attribute A13 {g,s,p}
+@attribute Class {positive,negative}
+
+@data
+a,5,t,f,0,g,positive
+b,4915,t,f,0,g,positive
+b,1835,t,f,0,g,positive
+a,5875,t,t,10,g,positive
+a,145,t,t,1,g,positive
+a,13,t,t,9,g,positive
+b,5,t,f,0,g,positive
+b,375,t,t,3,g,positive
+b,5,t,f,0,s,negative
+b,1165,t,t,1,g,negative
+a,15,t,f,0,s,negative
+b,155,t,f,0,g,negative
+b,15,t,f,0,g,negative
+b,225,t,f,0,g,negative
+b,25,t,t,12,g,positive
+b,425,t,t,2,g,positive
+b,54,t,t,3,g,positive
+b,2,t,t,2,g,positive
+a,12,t,t,8,g,positive
+b,35,t,f,0,s,positive
+a,954,t,f,0,g,positive
+b,75,t,t,1,g,positive
+b,304,t,t,1,g,positive
+b,5,t,t,6,g,positive
+a,105,f,f,0,g,negative
+b,585,f,f,0,g,negative
+b,675,f,f,0,g,negative
+b,12625,f,t,2,g,negative
+b,2415,f,t,2,g,negative
+a,45,f,f,0,g,negative
+a,10,f,f,0,g,negative
+b,25,f,f,0,g,negative
+b,15,f,t,1,g,negative
+a,115,f,f,0,g,negative
+b,75,f,f,0,g,negative
+b,13,f,f,0,g,negative
+b,125,f,f,0,g,negative
+b,5085,f,f,0,g,negative
+a,254,f,f,0,g,negative
+b,835,f,f,0,g,negative
+a,0,f,f,0,g,negative
+a,11665,f,f,0,g,negative
+b,5125,t,t,2,g,positive
+b,996,t,f,0,g,positive
+a,529,t,t,5,g,positive
+a,335,t,f,0,g,negative
+b,2521,t,t,1,g,negative
+b,225,t,f,0,g,negative
+b,10,t,f,0,g,negative
+b,379,t,f,0,g,negative
+b,15,t,t,6,g,positive
+b,1,t,t,7,g,positive
+b,10,t,t,11,g,positive
+b,15,t,t,9,g,positive
+a,146,t,t,16,g,positive
+a,3,t,f,0,g,positive
+b,165,t,t,1,g,positive
+b,125,f,f,0,g,negative
+b,325,f,t,2,g,negative
+b,475,f,t,1,g,negative
+b,75,f,f,0,g,negative
+a,83,f,t,1,g,negative
+a,375,f,t,1,g,negative
+a,835,f,f,0,g,negative
+a,135,f,t,1,g,negative

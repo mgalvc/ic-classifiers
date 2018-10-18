@@ -1,0 +1,34 @@
+@relation 'heart-weka.filters.unsupervised.attribute.Remove-V-R3,10,14'
+
+@attribute ChestPainType numeric
+@attribute Oldpeak numeric
+@attribute Class {1,2}
+
+@data
+4,18,2
+3,4,2
+4,0,2
+2,8,1
+4,15,1
+2,0,1
+1,42,1
+4,1,2
+4,1,2
+4,34,2
+2,0,1
+3,6,2
+1,14,1
+3,0,1
+3,2,2
+1,0,1
+4,42,2
+4,1,1
+2,14,1
+4,16,2
+1,12,1
+3,0,1
+3,4,1
+2,0,1
+4,28,2
+4,25,2
+4,15,1

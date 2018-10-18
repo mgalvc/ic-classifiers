@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,8,11,16-20,22-23,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Engine-location {front,rear}
+@attribute Width numeric
+@attribute Engine-size numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Bore numeric
+@attribute Stroke numeric
+@attribute Compression-ratio numeric
+@attribute Peak-rpm numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,dodge,front,63.8,90,2bbl,2.97,3.23,9.4,5500,31,1
+168,toyota,front,64,98,mpfi,3.24,3.08,9.4,6600,26,1
+118,dodge,front,63.8,90,2bbl,2.97,3.23,9.41,5500,37,1
+104,mazda,front,64.2,91,2bbl,3.03,3.15,9,5000,30,1
+85,subaru,front,65.4,108,mpfi,3.62,2.64,7.7,4800,23,0
+91,toyota,front,64.4,110,idi,3.27,3.35,22.5,4500,34,0
+110,honda,front,64,92,1bbl,2.91,3.41,9.2,6000,30,0
+108,nissan,front,66.5,181,mpfi,3.43,3.27,9,5200,17,0
+102,subaru,front,65.4,108,mpfi,3.62,2.64,7.7,4800,24,0
+161,mitsubishi,front,64.4,92,2bbl,2.97,3.23,9.4,5500,31,2
+134,toyota,front,65.6,146,mpfi,3.62,3.5,9.3,4800,24,2
+137,mitsubishi,front,65.4,110,spdi,3.17,3.46,7.5,5500,23,-1
+93,mercedes-benz,front,70.3,183,idi,3.58,3.64,21.5,4350,22,-1

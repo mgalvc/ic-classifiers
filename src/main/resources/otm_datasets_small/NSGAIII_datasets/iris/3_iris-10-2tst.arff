@@ -1,0 +1,21 @@
+@relation 'iris-weka.filters.unsupervised.attribute.Remove-V-R3,5'
+
+@attribute PetalLength numeric
+@attribute Class {Iris-setosa,Iris-versicolor,Iris-virginica}
+
+@data
+1.4,Iris-setosa
+1.4,Iris-setosa
+1.4,Iris-setosa
+1.5,Iris-setosa
+1.5,Iris-setosa
+4.7,Iris-versicolor
+4.5,Iris-versicolor
+4.4,Iris-versicolor
+5,Iris-versicolor
+4.7,Iris-versicolor
+5.9,Iris-virginica
+4.5,Iris-virginica
+6.7,Iris-virginica
+5.4,Iris-virginica
+5.2,Iris-virginica

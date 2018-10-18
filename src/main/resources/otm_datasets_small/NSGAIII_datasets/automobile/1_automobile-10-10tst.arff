@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,9,15,18,20,24,26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Wheel-base numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Bore numeric
+@attribute Compression-ratio numeric
+@attribute Highway-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+dodge,93.7,four,2.97,9.4,38,1
+nissan,94.5,four,3.15,9.4,37,1
+honda,93.7,four,2.91,9.2,34,1
+toyota,94.5,four,3.24,9.4,29,1
+audi,105.8,five,3.19,8.5,25,1
+mitsubishi,96.3,four,3.35,8.5,32,3
+peugot,107.9,four,3.46,8.4,24,0
+subaru,97,four,3.62,9,32,0
+peugot,107.9,four,3.7,21,33,0
+honda,96.5,four,3.15,9,28,0
+bmw,101.2,six,3.31,9,28,0
+mitsubishi,93.7,four,2.97,9.4,38,2
+audi,99.4,five,3.19,8,22,2
+volkswagen,97.3,four,3.19,10,32,2
+toyota,102.4,four,3.31,8.7,32,-1
+nissan,94.5,four,3.15,9.4,37,1
+porsche,94.5,four,3.94,9.5,27,3
+mercedes-benz,110,five,3.58,21.5,25,-1

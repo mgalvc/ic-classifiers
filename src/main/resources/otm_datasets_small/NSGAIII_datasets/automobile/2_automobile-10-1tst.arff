@@ -1,0 +1,27 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,10,13,15,18,23,26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Length numeric
+@attribute Curb-weight numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Bore numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+toyota,168.7,2169,four,3.19,29,1
+mazda,166.8,1950,four,3.08,31,1
+toyota,158.7,1985,four,3.05,35,1
+mitsubishi,172.4,2365,four,3.35,25,1
+nissan,170.7,3139,six,3.43,17,3
+nissan,181.7,3095,six,3.43,17,0
+peugot,186.7,3252,four,3.7,28,0
+chevrolet,158.8,1909,four,3.03,38,0
+mazda,177.8,2410,four,3.39,26,0
+bmw,176.8,2395,four,3.5,23,0
+nissan,162.4,2008,four,3.15,31,2
+volkswagen,171.7,2275,four,3.19,27,2
+mitsubishi,157.3,1918,four,2.97,37,2
+dodge,174.6,2535,four,3.34,24,-1
+toyota,175.6,2458,four,3.31,27,-1
+peugot,186.7,3130,four,3.61,18,0

@@ -1,0 +1,30 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,7,12,14,16-18,22,26'
+
+@attribute Normalized-losses numeric
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Height numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Engine-size numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Bore numeric
+@attribute Peak-rpm numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+118,fwd,50.8,ohc,98,mpfi,3.03,5500,1
+168,rwd,52.6,ohc,98,2bbl,3.19,4800,1
+118,fwd,50.8,ohc,90,2bbl,2.97,5500,1
+197,rwd,52,dohc,171,mpfi,3.27,5200,3
+106,fwd,53.3,ohc,110,1bbl,3.15,5800,0
+106,fwd,54.7,ohc,120,2bbl,3.33,5200,0
+85,fwd,54.1,ohc,110,1bbl,3.15,5800,0
+102,fwd,52.5,ohcf,108,mpfi,3.62,5200,0
+115,fwd,55.5,ohc,122,2bbl,3.39,4800,0
+104,fwd,56.1,ohc,121,mpfi,3.54,5250,2
+122,fwd,55.7,ohc,97,idi,3.01,4800,2
+94,fwd,55.7,ohc,97,idi,3.01,4800,2
+95,rwd,55.5,ohc,141,mpfi,3.78,5300,-1
+74,rwd,57.5,ohc,141,mpfi,3.78,5400,-1
+119,fwd,50.8,ohc,90,2bbl,2.97,5500,1
+154,fwd,50.8,ohc,90,2bbl,2.97,5500,1
+188,rwd,54.3,ohc,164,mpfi,3.31,4250,0

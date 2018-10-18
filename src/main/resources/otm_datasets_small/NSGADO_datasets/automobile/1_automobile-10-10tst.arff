@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R5,8-9,12-13,26'
+
+@attribute Num-of-doors {four,two}
+@attribute Engine-location {front,rear}
+@attribute Wheel-base numeric
+@attribute Height numeric
+@attribute Curb-weight numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+four,front,93.7,50.6,1967,1
+four,front,94.5,53.5,2024,1
+two,front,93.7,52.6,1940,1
+two,front,94.5,52.6,2300,1
+four,front,105.8,55.7,2844,1
+two,front,96.3,49.4,2328,3
+four,front,107.9,56.7,3075,0
+four,front,97,53,2290,0
+four,front,107.9,56.7,3252,0
+four,front,96.5,54.1,2465,0
+four,front,101.2,54.3,2765,0
+two,front,93.7,50.8,2004,2
+four,front,99.4,54.3,2824,2
+four,front,97.3,55.7,2300,2
+four,front,102.4,54.9,2414,-1
+two,front,94.5,54.5,1918,1
+two,front,94.5,50.2,2778,3
+four,front,110,56.5,3515,-1

@@ -1,0 +1,28 @@
+@relation 'newthyroid-weka.filters.unsupervised.attribute.Remove-V-R2,6'
+
+@attribute thyroxin numeric
+@attribute class {3,2,1}
+
+@data
+7.8,1
+10.1,1
+10.1,1
+7.8,1
+8.1,1
+9.7,1
+15.3,1
+8.6,1
+7.1,1
+11.5,1
+8.1,1
+7,1
+9.6,1
+8.5,1
+6.5,1
+16,2
+14.7,2
+16.7,2
+16.5,2
+2,3
+1.9,3
+5.3,3

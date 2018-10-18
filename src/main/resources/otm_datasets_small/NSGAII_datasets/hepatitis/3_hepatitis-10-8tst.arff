@@ -1,0 +1,15 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R13,16,20'
+
+@attribute Varices numeric
+@attribute Sgot numeric
+@attribute Class {1,2}
+
+@data
+2,144,2
+2,55,2
+2,53,2
+1,23,1
+2,225,2
+2,24,2
+1,140,2
+1,19,2

@@ -1,0 +1,21 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,6,15,25-26'
+
+@attribute Normalized-losses numeric
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+125,sedan,four,9279,1
+128,sedan,four,5499,1
+103,wagon,four,7999,1
+89,wagon,four,10198,0
+161,sedan,four,16630,0
+145,sedan,six,32250,0
+137,hatchback,four,6479,2
+134,hardtop,four,11199,2
+164,sedan,four,13950,2
+93,sedan,five,31600,-1
+90,sedan,six,15690,-1
+197,hatchback,six,16558,3

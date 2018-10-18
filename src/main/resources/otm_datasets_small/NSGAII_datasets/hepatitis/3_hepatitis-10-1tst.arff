@@ -1,0 +1,13 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R11,14,20'
+
+@attribute Spiders numeric
+@attribute Bilirubin numeric
+@attribute Class {1,2}
+
+@data
+2,2.3,1
+2,1,2
+2,1,2
+2,0.7,2
+2,2.4,2
+1,1,1

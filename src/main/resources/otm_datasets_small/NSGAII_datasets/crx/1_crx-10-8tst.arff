@@ -1,0 +1,77 @@
+@relation 'crx-weka.filters.unsupervised.attribute.Remove-V-R1-2,4,6-7,9,11,13-16'
+
+@attribute A1 {b,a}
+@attribute A2 numeric
+@attribute A4 {u,y,l}
+@attribute A6 {w,q,m,r,cc,k,c,d,x,i,e,aa,ff,j}
+@attribute A7 {v,h,bb,ff,j,z,o,dd,n}
+@attribute A9 {t,f}
+@attribute A11 numeric
+@attribute A13 {g,s,p}
+@attribute A14 numeric
+@attribute A15 numeric
+@attribute Class {positive,negative}
+
+@data
+a,2292,u,cc,v,t,0,g,80,1349,positive
+a,4775,u,c,v,t,6,g,0,1260,positive
+a,1583,u,c,h,t,2,g,100,0,positive
+b,5742,u,e,h,t,3,g,0,0,positive
+a,3675,u,e,v,t,0,g,0,4000,positive
+a,2258,u,q,v,t,5,g,0,560,positive
+b,2967,u,w,h,t,1,g,240,100,positive
+b,5642,y,c,v,t,40,g,0,15,positive
+a,41,y,q,h,t,23,g,455,1236,positive
+b,3742,u,w,v,t,0,g,400,5800,positive
+b,2067,u,q,v,t,1,g,160,0,negative
+a,1917,y,aa,v,t,0,g,160,0,negative
+a,49,u,j,j,t,0,g,100,27,negative
+b,2875,u,k,v,t,0,s,280,0,negative
+a,245,y,ff,ff,t,3,g,180,147,negative
+b,5783,u,m,v,t,6,g,360,1332,positive
+a,235,u,q,v,t,5,g,120,0,positive
+a,565,u,j,ff,t,15,g,0,247,positive
+a,305,u,c,bb,t,7,g,0,3065,positive
+a,5833,u,q,v,t,14,g,0,1602,positive
+b,375,y,d,v,f,0,g,431,0,positive
+b,56,u,k,h,t,0,g,24,2028,positive
+b,25,u,aa,v,t,0,s,20,0,positive
+a,2408,u,q,h,t,1,g,0,678,positive
+b,395,u,c,bb,t,16,g,117,1210,positive
+a,5008,u,aa,v,t,3,g,156,0,positive
+b,335,u,x,h,t,4,g,253,857,positive
+a,1783,u,x,h,t,11,g,0,3000,positive
+b,1817,u,c,h,f,0,g,320,13,negative
+a,4817,u,i,o,f,0,g,0,120,negative
+b,2117,y,c,h,f,0,g,280,204,negative
+b,2392,y,cc,h,f,0,g,240,1,negative
+b,2125,u,w,v,f,0,g,150,8,positive
+b,4733,u,c,v,f,0,g,0,228,negative
+a,3325,y,aa,v,f,0,g,180,0,negative
+a,2617,u,j,j,f,0,g,276,1,negative
+a,3025,u,k,v,f,0,s,100,0,negative
+b,3442,u,i,bb,f,0,g,440,4500,negative
+a,5683,y,ff,ff,f,0,g,0,4,negative
+b,2667,u,i,bb,f,0,g,178,0,negative
+b,2475,u,m,v,f,0,g,120,1,negative
+b,4117,y,w,v,f,0,g,0,195,negative
+b,1708,u,q,v,f,4,g,160,8,negative
+b,2517,u,c,v,f,1,g,0,22,negative
+b,2225,u,k,v,f,0,g,280,55,negative
+b,2358,u,c,v,f,0,g,136,1,negative
+b,2183,u,k,v,f,0,g,356,0,negative
+a,2717,u,ff,ff,f,1,g,92,300,negative
+b,3125,u,ff,ff,f,1,g,96,19,negative
+a,25,u,x,h,t,0,g,160,5860,positive
+a,5575,u,k,h,t,3,g,100,50,negative
+a,3392,y,ff,ff,t,0,g,320,0,negative
+b,4275,u,i,bb,t,0,g,0,200,negative
+b,3167,u,x,v,t,8,g,303,3290,positive
+b,7342,u,ff,ff,t,0,g,0,0,positive
+b,3233,u,k,v,f,0,g,232,0,negative
+b,4783,u,x,bb,f,0,g,520,0,negative
+b,20,y,k,v,f,0,g,140,4,negative
+a,3833,u,c,v,f,0,g,160,0,negative
+b,3225,y,ff,ff,f,2,g,160,1,negative
+b,2267,u,c,j,f,0,s,0,0,positive
+b,1708,u,i,v,f,0,g,140,2,negative

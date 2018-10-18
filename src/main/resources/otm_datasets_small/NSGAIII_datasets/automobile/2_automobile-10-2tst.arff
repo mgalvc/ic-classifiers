@@ -1,0 +1,23 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R7,11,14-15,18,25-26'
+
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Width numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Bore numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+fwd,65.4,ohc,four,3.17,9279,1
+fwd,63.8,ohc,four,3.15,5499,1
+fwd,63.8,ohc,four,3.15,7999,1
+fwd,65.4,ohcf,four,3.62,10198,0
+rwd,68.4,l,four,3.46,16630,0
+rwd,69.6,dohc,six,3.63,32250,0
+fwd,63.9,ohc,four,2.91,6479,2
+rwd,65.6,ohc,four,3.62,11199,2
+fwd,66.2,ohc,four,3.19,13950,2
+rwd,71.7,ohc,five,3.58,31600,-1
+rwd,66.5,dohc,six,3.27,15690,-1
+rwd,67.7,dohc,six,3.27,16558,3

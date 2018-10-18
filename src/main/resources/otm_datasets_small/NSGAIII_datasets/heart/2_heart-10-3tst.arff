@@ -1,0 +1,36 @@
+@relation 'heart-weka.filters.unsupervised.attribute.Remove-V-R5,10,12-14'
+
+@attribute SerumCholestoral numeric
+@attribute Oldpeak numeric
+@attribute MajorVessels numeric
+@attribute Thal numeric
+@attribute Class {1,2}
+
+@data
+311,18,2,7,2
+229,4,1,7,2
+309,0,3,7,2
+236,8,0,3,1
+201,15,0,6,1
+208,0,0,3,1
+270,42,0,7,1
+212,1,2,7,2
+234,1,1,7,2
+327,34,0,3,2
+271,0,0,3,1
+233,6,1,7,2
+213,14,1,3,1
+267,0,0,3,1
+254,2,3,7,2
+182,0,0,3,1
+298,42,3,7,2
+233,1,3,7,1
+250,14,0,3,1
+299,16,0,7,2
+298,12,0,7,1
+318,0,1,3,1
+258,4,0,7,1
+220,0,0,3,1
+254,28,1,7,2
+177,25,0,7,2
+247,15,0,3,1

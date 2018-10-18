@@ -1,0 +1,21 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,9,20,25-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Wheel-base numeric
+@attribute Compression-ratio numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+mitsubishi,96.3,7.5,9279,1
+nissan,94.5,9.4,5499,1
+nissan,94.5,9.4,7999,1
+subaru,97,9,10198,0
+peugot,107.9,8.4,16630,0
+jaguar,113,8.1,32250,0
+honda,86.6,9.6,6479,2
+toyota,98.4,9.3,11199,2
+audi,99.8,10,13950,2
+mercedes-benz,115.6,21.5,31600,-1
+toyota,104.5,9.2,15690,-1
+toyota,102.9,9.3,16558,3

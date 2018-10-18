@@ -1,0 +1,37 @@
+@relation haberman-weka.filters.unsupervised.attribute.Remove-V-R3-4
+
+@attribute Positive numeric
+@attribute Survival {positive,negative}
+
+@data
+2,negative
+4,negative
+0,negative
+4,positive
+19,positive
+0,negative
+0,negative
+1,negative
+0,negative
+3,negative
+0,negative
+1,negative
+0,negative
+0,negative
+3,negative
+8,negative
+13,positive
+35,positive
+0,positive
+0,negative
+1,positive
+1,negative
+15,positive
+0,negative
+0,negative
+0,negative
+46,negative
+0,negative
+1,negative
+12,positive
+1,negative

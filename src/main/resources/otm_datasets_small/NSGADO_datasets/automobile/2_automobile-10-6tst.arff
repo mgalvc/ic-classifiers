@@ -1,0 +1,25 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,5,12,15,21,25-26'
+
+@attribute Normalized-losses numeric
+@attribute Num-of-doors {four,two}
+@attribute Height numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Horsepower numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+231,two,49.7,six,160,18399,1
+154,four,50.6,four,68,6229,1
+129,two,53.7,four,84,8845,1
+148,four,50.6,four,68,6692,1
+142,two,50.8,eight,155,35056,3
+91,four,52.8,four,70,8358,0
+106,four,54.7,four,97,8949,0
+93,two,54.9,five,123,28176,0
+104,four,56.1,four,160,18620,2
+121,two,53.2,three,48,5151,2
+65,four,54.9,four,92,8948,-1
+256,two,51.4,four,90,9980,3
+103,four,56.2,four,114,15985,-2
+134,two,52,four,116,9989,2

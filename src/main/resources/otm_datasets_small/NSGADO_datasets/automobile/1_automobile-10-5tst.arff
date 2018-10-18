@@ -1,0 +1,30 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,5,7-8,14,22,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Engine-location {front,rear}
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Peak-rpm numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+87,toyota,two,fwd,front,ohc,4800,1
+128,nissan,two,fwd,front,ohc,5200,1
+104,mazda,two,fwd,front,ohc,5000,1
+74,toyota,four,fwd,front,ohc,4800,1
+119,plymouth,two,fwd,front,ohc,5500,1
+153,mitsubishi,two,fwd,front,ohc,5500,3
+102,subaru,four,4wd,front,ohcf,4800,0
+78,honda,four,fwd,front,ohc,6000,0
+85,honda,four,fwd,front,ohc,5800,0
+108,nissan,four,fwd,front,ohcv,5200,0
+81,toyota,four,4wd,front,ohc,4800,0
+137,honda,two,fwd,front,ohc,6000,2
+122,volkswagen,two,fwd,front,ohc,5250,2
+83,subaru,two,fwd,front,ohcf,4400,2
+74,plymouth,four,fwd,front,ohc,5000,-1
+95,volvo,four,rwd,front,ohc,4800,-1
+91,toyota,four,fwd,front,ohc,4800,0
+103,volvo,four,rwd,front,ohc,5400,-2

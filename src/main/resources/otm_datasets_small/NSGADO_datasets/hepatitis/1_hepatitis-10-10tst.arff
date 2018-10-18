@@ -1,0 +1,17 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R12,20'
+
+@attribute Ascites numeric
+@attribute Class {1,2}
+
+@data
+1,2
+2,2
+2,2
+2,2
+2,2
+2,2
+2,2
+2,2
+1,1
+2,2
+2,2

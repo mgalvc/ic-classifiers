@@ -1,0 +1,31 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-3,7,14,18-19,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Fuel-type {diesel,gas}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Bore numeric
+@attribute Stroke numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+101,honda,gas,fwd,ohc,2.91,3.07,1
+122,nissan,gas,fwd,ohc,3.15,3.29,1
+154,plymouth,gas,fwd,ohc,2.97,3.23,1
+161,mitsubishi,gas,fwd,ohc,3.03,3.39,1
+98,chevrolet,gas,fwd,ohc,3.03,3.11,1
+150,saab,gas,fwd,dohc,3.54,3.07,3
+161,peugot,gas,rwd,l,3.46,3.19,0
+91,toyota,diesel,fwd,ohc,3.27,3.35,0
+91,toyota,gas,4wd,ohc,3.05,3.03,0
+118,mazda,gas,rwd,ohc,3.76,3.16,0
+77,toyota,gas,fwd,ohc,3.05,3.03,0
+134,toyota,gas,rwd,ohc,3.62,3.5,2
+192,bmw,gas,rwd,ohc,3.5,2.8,2
+104,saab,gas,fwd,ohc,3.54,3.07,2
+95,volvo,gas,rwd,ohc,3.78,3.15,-1
+65,toyota,gas,fwd,ohc,3.31,3.54,-1
+122,nissan,gas,fwd,ohc,3.15,3.29,1
+150,saab,gas,fwd,ohc,2.54,2.07,3
+95,volvo,gas,rwd,ohc,3.78,3.15,-1

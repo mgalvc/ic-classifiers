@@ -1,0 +1,27 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,3,11,25-26'
+
+@attribute Normalized-losses numeric
+@attribute Fuel-type {diesel,gas}
+@attribute Width numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,gas,63.8,6229,1
+103,gas,63.8,7349,1
+101,gas,64,6529,1
+168,gas,64,9538,1
+158,gas,71.4,17710,1
+153,gas,65.4,8499,3
+161,gas,68.4,15580,0
+89,gas,65.4,7463,0
+161,diesel,68.4,17950,0
+85,gas,65.2,12945,0
+188,gas,64.8,21105,0
+161,gas,64.4,6669,2
+164,gas,66.4,17450,2
+94,gas,65.5,9995,2
+65,gas,66.5,10898,-1
+128,gas,63.8,6649,1
+186,gas,68.3,22018,3
+93,diesel,70.3,25552,-1

@@ -1,0 +1,29 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,8-9,16,18,26'
+
+@attribute Normalized-losses numeric
+@attribute Engine-location {front,rear}
+@attribute Wheel-base numeric
+@attribute Engine-size numeric
+@attribute Bore numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+101,front,93.7,79,2.91,1
+122,front,94.5,97,3.15,1
+154,front,93.7,98,2.97,1
+161,front,93,98,3.03,1
+98,front,94.5,90,3.03,1
+150,front,99.1,121,3.54,3
+161,front,107.9,120,3.46,0
+91,front,95.7,110,3.27,0
+91,front,95.7,92,3.05,0
+118,front,104.9,140,3.76,0
+77,front,95.7,92,3.05,0
+134,front,98.4,146,3.62,2
+192,front,101.2,108,3.5,2
+104,front,99.1,121,3.54,2
+95,front,109.1,141,3.78,-1
+65,front,102.4,122,3.31,-1
+122,front,94.5,97,3.15,1
+150,front,99.1,121,2.54,3
+95,front,109.1,141,3.78,-1

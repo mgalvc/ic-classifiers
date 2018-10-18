@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,4-5,9-10,18,20,22,25-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Aspiration {std,turbo}
+@attribute Num-of-doors {four,two}
+@attribute Wheel-base numeric
+@attribute Length numeric
+@attribute Bore numeric
+@attribute Compression-ratio numeric
+@attribute Peak-rpm numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+nissan,std,two,99.2,178.5,3.43,9,5200,18399,1
+plymouth,std,four,93.7,157.3,2.97,9.4,5500,6229,1
+mazda,std,two,98.8,177.8,3.39,8.6,4800,8845,1
+dodge,std,four,93.7,157.3,2.97,9.4,5500,6692,1
+mercedes-benz,std,two,96.6,180.3,3.46,8.3,4750,35056,3
+toyota,std,four,95.7,166.3,3.19,9,4800,8358,0
+nissan,std,four,97.2,173.4,3.33,8.5,5200,8949,0
+mercedes-benz,turbo,two,106.7,187.5,3.58,21.5,4350,28176,0
+saab,turbo,four,99.1,186.6,3.54,9,5500,18620,2
+chevrolet,std,two,88.4,141.1,2.91,9.5,5100,5151,2
+toyota,std,four,102.4,175.6,3.31,8.7,4200,8948,-1
+volkswagen,std,two,94.5,165.7,3.19,8.5,5500,9980,3
+volvo,std,four,104.3,188.8,3.78,9.5,5400,15985,-2
+toyota,std,two,98.4,176.2,3.62,9.3,4800,9989,2

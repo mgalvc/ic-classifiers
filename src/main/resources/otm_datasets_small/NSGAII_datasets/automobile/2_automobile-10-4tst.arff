@@ -1,0 +1,31 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2-3,12,16,18,22,25-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Fuel-type {diesel,gas}
+@attribute Height numeric
+@attribute Engine-size numeric
+@attribute Bore numeric
+@attribute Peak-rpm numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+honda,gas,52.6,79,2.91,5500,5399,1
+nissan,gas,54.5,97,3.15,5200,7499,1
+plymouth,gas,50.8,98,2.97,5500,7609,1
+mitsubishi,gas,50.8,98,3.03,5500,7689,1
+chevrolet,gas,52,90,3.03,5400,6295,1
+saab,gas,56.1,121,3.54,5500,18150,3
+peugot,gas,56.7,120,3.46,5000,11900,0
+toyota,diesel,52.8,110,3.27,4500,7788,0
+toyota,gas,59.1,92,3.05,4800,8778,0
+mazda,gas,54.4,140,3.76,5000,18280,0
+toyota,gas,59.1,92,3.05,4800,6918,0
+toyota,gas,52,146,3.62,4800,11549,2
+bmw,gas,54.3,108,3.5,5800,16430,2
+saab,gas,56.1,121,3.54,5250,15510,2
+volvo,gas,55.5,141,3.78,5400,22625,-1
+toyota,gas,53.9,122,3.31,4200,9988,-1
+nissan,gas,54.5,97,3.15,5200,6849,1
+saab,gas,56.1,121,2.54,5250,15040,3
+volvo,gas,55.5,141,3.78,5400,16845,-1

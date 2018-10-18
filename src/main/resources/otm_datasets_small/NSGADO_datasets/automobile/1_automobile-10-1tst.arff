@@ -1,0 +1,25 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R5,13,18-19,26'
+
+@attribute Num-of-doors {four,two}
+@attribute Curb-weight numeric
+@attribute Bore numeric
+@attribute Stroke numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+two,2169,3.19,3.03,1
+four,1950,3.08,3.15,1
+two,1985,3.05,3.03,1
+four,2365,3.35,3.46,1
+two,3139,3.43,3.27,3
+four,3095,3.43,3.27,0
+four,3252,3.7,3.52,0
+four,1909,3.03,3.11,0
+four,2410,3.39,3.39,0
+four,2395,3.5,2.8,0
+two,2008,3.15,3.29,2
+four,2275,3.19,3.4,2
+two,1918,2.97,3.23,2
+four,2535,3.34,3.46,-1
+four,2458,3.31,3.54,-1
+four,3130,3.61,3.21,0

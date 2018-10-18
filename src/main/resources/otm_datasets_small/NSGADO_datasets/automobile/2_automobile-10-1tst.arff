@@ -1,0 +1,25 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R11-12,16,22,26'
+
+@attribute Width numeric
+@attribute Height numeric
+@attribute Engine-size numeric
+@attribute Peak-rpm numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+64,52.6,98,4800,1
+64.2,54.1,91,5000,1
+63.6,54.5,92,4800,1
+65.4,51.6,122,5000,1
+67.9,49.7,181,5200,3
+66.5,55.1,181,5200,0
+68.4,56.7,152,4150,0
+63.6,52,90,5400,0
+66.5,55.5,122,4800,0
+64.8,54.3,108,5800,0
+63.8,53.3,97,5200,2
+65.5,55.7,109,5250,2
+64.4,50.8,92,5500,2
+64.6,59.8,122,5000,-1
+66.5,53.9,122,4200,-1
+68.3,56,134,5600,0

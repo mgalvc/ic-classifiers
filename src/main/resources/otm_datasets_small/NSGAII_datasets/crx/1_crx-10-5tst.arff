@@ -1,0 +1,77 @@
+@relation 'crx-weka.filters.unsupervised.attribute.Remove-V-R6,9,11,14-16'
+
+@attribute A6 {w,q,m,r,cc,k,c,d,x,i,e,aa,ff,j}
+@attribute A9 {t,f}
+@attribute A11 numeric
+@attribute A14 numeric
+@attribute A15 numeric
+@attribute Class {positive,negative}
+
+@data
+w,t,0,120,0,positive
+c,f,0,128,0,positive
+cc,t,7,96,0,positive
+ff,t,11,30,300,positive
+cc,t,3,311,300,positive
+cc,t,0,0,0,positive
+w,t,7,80,2954,positive
+aa,t,0,443,0,negative
+c,t,0,280,0,negative
+q,t,0,268,0,negative
+k,t,2,120,5,negative
+i,t,2,75,0,negative
+c,t,5,140,5,negative
+w,t,3,329,0,negative
+k,t,3,212,0,negative
+q,t,7,300,5,negative
+q,t,14,0,2300,positive
+m,t,2,0,15,positive
+e,t,0,393,0,positive
+q,t,0,60,400,positive
+c,t,20,0,15000,positive
+q,t,2,0,0,positive
+c,t,8,144,7,positive
+x,t,3,380,0,positive
+w,t,12,0,790,positive
+cc,t,0,100,0,positive
+w,t,0,487,500,positive
+x,t,6,520,196,positive
+c,t,0,40,0,positive
+i,t,2,120,300,positive
+i,f,0,200,1000,negative
+k,f,0,160,0,negative
+ff,f,2,200,4,negative
+q,f,0,280,1,negative
+ff,f,0,80,0,negative
+k,f,0,140,0,negative
+k,f,0,300,2,negative
+c,t,3,180,0,negative
+ff,f,0,100,0,negative
+i,f,0,221,0,negative
+q,f,0,380,0,negative
+ff,f,0,100,4208,negative
+k,f,0,240,0,negative
+c,f,0,60,0,negative
+c,f,0,300,0,negative
+ff,f,0,0,0,negative
+ff,f,5,176,146,negative
+ff,f,3,350,769,negative
+d,f,0,80,0,negative
+ff,f,2,0,351,negative
+ff,f,0,180,1,negative
+q,t,1,333,892,positive
+ff,t,1,232,100,positive
+c,t,16,0,5000,positive
+ff,t,0,130,1,negative
+i,t,10,132,28,negative
+m,t,0,110,0,positive
+c,t,6,220,948,positive
+w,t,11,290,284,positive
+c,t,4,50,1465,positive
+c,t,7,96,5124,positive
+cc,t,8,330,1200,positive
+c,f,2,400,108,negative
+m,f,1,272,108,negative
+ff,f,0,0,0,negative
+q,f,12,129,3,negative
+k,f,0,280,364,negative

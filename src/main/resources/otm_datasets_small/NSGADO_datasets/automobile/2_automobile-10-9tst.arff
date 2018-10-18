@@ -1,0 +1,27 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R3,5,9-10,15,19,22,26'
+
+@attribute Fuel-type {diesel,gas}
+@attribute Num-of-doors {four,two}
+@attribute Wheel-base numeric
+@attribute Length numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Stroke numeric
+@attribute Peak-rpm numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+gas,two,98.8,177.8,four,3.39,4800,1
+gas,two,94.5,165.3,four,3.29,5200,1
+diesel,two,94.5,165.3,four,3.47,4800,1
+gas,two,93.1,159.1,four,3.15,5000,1
+gas,two,96.5,167.5,four,3.58,5800,0
+diesel,four,107.9,186.7,four,3.52,4150,0
+gas,four,95.7,166.3,four,3.03,4800,0
+gas,four,96.9,173.6,four,2.64,4800,0
+gas,two,98.4,176.2,four,3.5,4800,2
+gas,two,93.3,157.3,four,2.64,4400,2
+gas,four,97.3,171.7,four,3.4,5250,2
+gas,four,104.3,188.8,four,3.15,5400,-1
+gas,four,104.3,188.8,four,3.15,5100,-1
+gas,two,99.1,186.6,four,3.07,5250,3
+gas,two,91.3,170.7,six,3.27,5200,3

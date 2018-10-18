@@ -1,0 +1,28 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,4-5,17,26'
+
+@attribute Normalized-losses numeric
+@attribute Aspiration {std,turbo}
+@attribute Num-of-doors {four,two}
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+101,std,two,1bbl,1
+122,std,four,2bbl,1
+154,std,four,2bbl,1
+161,turbo,two,spdi,1
+98,std,two,2bbl,1
+150,turbo,two,mpfi,3
+161,std,four,mpfi,0
+91,std,four,idi,0
+91,std,four,2bbl,0
+118,std,four,mpfi,0
+77,std,four,2bbl,0
+134,std,two,mpfi,2
+192,std,two,mpfi,2
+104,std,four,mpfi,2
+95,turbo,four,mpfi,-1
+65,std,four,mpfi,-1
+122,std,four,2bbl,1
+150,std,two,mpfi,3
+95,std,four,mpfi,-1

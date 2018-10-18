@@ -1,0 +1,25 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R1,7,14'
+
+@attribute Alcohol numeric
+@attribute flavanoids numeric
+@attribute Class {1,2,3}
+
+@data
+13.16,3.24,1
+14.37,3.49,1
+13.63,2.91,1
+13.83,3.4,1
+13.39,2.94,1
+13.9,3.39,1
+12.7,2.55,2
+12.72,2.53,2
+12,1.25,2
+12.29,2.99,2
+12,1.64,2
+11.56,5.08,2
+12.42,2.13,2
+12.25,0.47,3
+13.11,1.28,3
+13.17,0.63,3
+14.16,0.7,3
+13.71,0.61,3

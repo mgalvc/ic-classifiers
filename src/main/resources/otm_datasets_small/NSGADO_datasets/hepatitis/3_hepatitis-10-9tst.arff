@@ -1,0 +1,18 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R6,18,20'
+
+@attribute Malaise numeric
+@attribute ProTime numeric
+@attribute Class {1,2}
+
+@data
+2,75,2
+2,62,2
+1,77,2
+2,74,2
+1,56,2
+2,100,2
+1,84,2
+2,32,1
+2,50,2
+2,90,1
+2,85,2

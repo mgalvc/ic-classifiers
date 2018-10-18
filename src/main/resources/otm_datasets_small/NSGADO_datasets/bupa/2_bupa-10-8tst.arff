@@ -1,0 +1,41 @@
+@relation bupa-weka.filters.unsupervised.attribute.Remove-V-R6-7
+
+@attribute Drinks numeric
+@attribute Selector {1,2}
+
+@data
+0,1
+0,2
+0,2
+0.5,1
+0.5,1
+0.5,1
+0.5,2
+0.5,2
+0.5,2
+0.5,2
+0.5,2
+2,1
+2,2
+4,1
+4,2
+4,2
+4,2
+4,2
+5,2
+5,2
+6,1
+6,1
+0.5,1
+0.5,1
+0.5,2
+0.5,2
+0.5,2
+0.5,2
+0.5,2
+1,2
+2,1
+2,1
+6,1
+6,1
+10,1

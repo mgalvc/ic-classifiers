@@ -1,0 +1,30 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1-2,4,9,15,21,23,26'
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Aspiration {std,turbo}
+@attribute Wheel-base numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Horsepower numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+87,toyota,std,95.7,four,62,31,1
+128,nissan,std,94.5,four,69,31,1
+104,mazda,std,93.1,four,68,31,1
+74,toyota,std,95.7,four,62,31,1
+119,plymouth,turbo,93.7,four,102,24,1
+153,mitsubishi,turbo,96.3,four,116,23,3
+102,subaru,std,97,four,82,24,0
+78,honda,std,96.5,four,76,30,0
+85,honda,std,96.5,four,86,27,0
+108,nissan,std,100.4,six,152,19,0
+81,toyota,std,95.7,four,62,27,0
+137,honda,std,86.6,four,76,31,2
+122,volkswagen,std,97.3,four,85,27,2
+83,subaru,std,93.7,four,73,26,2
+74,plymouth,std,103.3,four,88,24,-1
+95,volvo,turbo,109.1,six,106,26,-1
+91,toyota,std,95.7,four,70,28,0
+103,volvo,std,104.3,four,114,23,-2

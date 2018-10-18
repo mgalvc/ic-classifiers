@@ -1,0 +1,31 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,5-7,9,13,15,17-18,21,25-26'
+
+@attribute Normalized-losses numeric
+@attribute Num-of-doors {four,two}
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Wheel-base numeric
+@attribute Curb-weight numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Bore numeric
+@attribute Horsepower numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+129,two,hatchback,fwd,98.8,2385,four,2bbl,3.39,84,10595,1
+128,two,sedan,fwd,94.5,1951,four,2bbl,3.15,69,7299,1
+128,two,sedan,fwd,94.5,2017,four,idi,2.99,55,7099,1
+104,two,hatchback,fwd,93.1,1900,four,2bbl,3.03,68,6095,1
+106,two,hatchback,fwd,96.5,2289,four,1bbl,3.15,86,9095,0
+161,four,sedan,rwd,107.9,3197,four,idi,3.7,95,13200,0
+91,four,hatchback,fwd,95.7,2109,four,2bbl,3.19,70,7198,0
+85,four,wagon,4wd,96.9,2420,four,2bbl,3.62,82,8013,0
+134,two,hardtop,rwd,98.4,2540,four,mpfi,3.62,116,8449,2
+83,two,hatchback,4wd,93.3,2240,four,2bbl,3.62,73,7603,2
+94,four,sedan,fwd,97.3,2212,four,mpfi,3.19,85,8195,2
+74,four,wagon,rwd,104.3,3042,four,mpfi,3.78,114,16515,-1
+74,four,wagon,rwd,104.3,3157,four,mpfi,3.62,162,18950,-1
+150,two,hatchback,fwd,99.1,2658,four,mpfi,3.54,110,11850,3
+194,two,hatchback,rwd,91.3,3071,six,mpfi,3.43,160,17199,3

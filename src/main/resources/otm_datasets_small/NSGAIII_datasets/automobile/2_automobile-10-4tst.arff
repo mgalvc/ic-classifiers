@@ -1,0 +1,32 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2,7-8,12,16,18,20,25-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Engine-location {front,rear}
+@attribute Height numeric
+@attribute Engine-size numeric
+@attribute Bore numeric
+@attribute Compression-ratio numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+honda,fwd,front,52.6,79,2.91,10.1,5399,1
+nissan,fwd,front,54.5,97,3.15,9.4,7499,1
+plymouth,fwd,front,50.8,98,2.97,9.4,7609,1
+mitsubishi,fwd,front,50.8,98,3.03,7.6,7689,1
+chevrolet,fwd,front,52,90,3.03,9.6,6295,1
+saab,fwd,front,56.1,121,3.54,9,18150,3
+peugot,rwd,front,56.7,120,3.46,8.4,11900,0
+toyota,fwd,front,52.8,110,3.27,22.5,7788,0
+toyota,4wd,front,59.1,92,3.05,9,8778,0
+mazda,rwd,front,54.4,140,3.76,8,18280,0
+toyota,fwd,front,59.1,92,3.05,9,6918,0
+toyota,rwd,front,52,146,3.62,9.3,11549,2
+bmw,rwd,front,54.3,108,3.5,8.8,16430,2
+saab,fwd,front,56.1,121,3.54,9.3,15510,2
+volvo,rwd,front,55.5,141,3.78,9.5,22625,-1
+toyota,fwd,front,53.9,122,3.31,8.7,9988,-1
+nissan,fwd,front,54.5,97,3.15,9.4,6849,1
+saab,fwd,front,56.1,121,2.54,9.3,15040,3
+volvo,rwd,front,55.5,141,3.78,9.5,16845,-1

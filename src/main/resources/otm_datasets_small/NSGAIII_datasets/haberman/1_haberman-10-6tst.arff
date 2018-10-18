@@ -1,0 +1,38 @@
+@relation 'haberman-weka.filters.unsupervised.attribute.Remove-V-R1,3-4'
+
+@attribute Age numeric
+@attribute Positive numeric
+@attribute Survival {positive,negative}
+
+@data
+53,2,negative
+47,4,negative
+58,0,negative
+53,4,positive
+62,19,positive
+62,0,negative
+55,0,negative
+53,1,negative
+62,0,negative
+30,3,negative
+61,0,negative
+30,1,negative
+36,0,negative
+42,0,negative
+58,3,negative
+41,8,negative
+51,13,positive
+59,35,positive
+49,0,positive
+57,0,negative
+53,1,positive
+38,1,negative
+55,15,positive
+59,0,negative
+64,0,negative
+39,0,negative
+54,46,negative
+70,0,negative
+75,1,negative
+53,12,positive
+38,1,negative

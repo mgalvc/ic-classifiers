@@ -1,0 +1,23 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R4,8,11-13,25-26'
+
+@attribute Aspiration {std,turbo}
+@attribute Engine-location {front,rear}
+@attribute Width numeric
+@attribute Height numeric
+@attribute Curb-weight numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+turbo,front,65.4,51.6,2403,9279,1
+std,front,63.8,54.5,1889,5499,1
+std,front,63.8,53.5,2037,7999,1
+std,front,65.4,53,2455,10198,0
+std,front,68.4,56.7,3075,16630,0
+std,front,69.6,52.8,4066,32250,0
+std,front,63.9,50.8,1713,6479,2
+std,front,65.6,52,2679,11199,2
+std,front,66.2,54.3,2337,13950,2
+turbo,front,71.7,56.3,3770,31600,-1
+std,front,66.5,54.1,3131,15690,-1
+std,front,67.7,52,2976,16558,3

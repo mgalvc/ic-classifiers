@@ -1,0 +1,33 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,3,5,8,14-17,21-22,24-26'
+
+@attribute Normalized-losses numeric
+@attribute Fuel-type {diesel,gas}
+@attribute Num-of-doors {four,two}
+@attribute Engine-location {front,rear}
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Engine-size numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Horsepower numeric
+@attribute Peak-rpm numeric
+@attribute Highway-mpg numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+168,gas,two,front,ohc,four,98,2bbl,70,4800,34,8058,1
+113,gas,four,front,ohc,four,91,2bbl,68,5000,38,7395,1
+87,gas,two,front,ohc,four,92,2bbl,62,4800,39,5348,1
+125,gas,four,front,ohc,four,122,2bbl,88,5000,32,6989,1
+194,gas,two,front,ohcv,six,181,mpfi,200,5200,23,19699,3
+128,gas,four,front,ohcv,six,181,mpfi,152,5200,22,13499,0
+161,diesel,four,front,l,four,152,idi,95,4150,33,16900,0
+81,gas,four,front,ohc,four,90,2bbl,70,5400,43,6575,0
+115,gas,four,front,ohc,four,122,2bbl,84,4800,32,8495,0
+192,gas,four,front,ohc,four,108,mpfi,101,5800,29,16925,0
+168,gas,two,front,ohc,four,97,2bbl,69,5200,37,8249,2
+94,gas,four,front,ohc,four,109,mpfi,85,5250,34,8495,2
+161,gas,two,front,ohc,four,92,2bbl,68,5500,41,5389,2
+110,gas,four,front,ohc,four,122,2bbl,88,5000,30,8921,-1
+65,gas,four,front,ohc,four,122,mpfi,92,4200,32,11248,-1
+161,gas,four,front,l,four,134,mpfi,142,5600,24,18150,0

@@ -1,0 +1,24 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R1,10-13,15,26'
+
+@attribute Normalized-losses numeric
+@attribute Length numeric
+@attribute Width numeric
+@attribute Height numeric
+@attribute Curb-weight numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,157.3,63.8,50.6,1989,four,1
+168,168.7,64,52.6,2265,four,1
+118,157.3,63.8,50.8,1876,four,1
+104,159.1,64.2,54.1,1890,four,1
+85,173.6,65.4,54.9,2650,four,0
+91,166.3,64.4,53,2275,four,0
+110,163.4,64,54.5,2010,four,0
+108,184.6,66.5,56.1,3296,six,0
+102,172,65.4,54.3,2510,four,0
+161,157.3,64.4,50.8,1944,four,2
+134,176.2,65.6,52,2536,four,2
+137,172.4,65.4,51.6,2403,four,-1
+93,190.9,70.3,58.7,3750,five,-1

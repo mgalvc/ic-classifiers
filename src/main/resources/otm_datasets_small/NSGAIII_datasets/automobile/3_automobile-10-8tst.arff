@@ -1,0 +1,31 @@
+@relation 'automobile-weka.filters.unsupervised.attribute.Remove-V-R2-3,5-6,8,11,13,18,25-26'
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Fuel-type {diesel,gas}
+@attribute Num-of-doors {four,two}
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Engine-location {front,rear}
+@attribute Width numeric
+@attribute Curb-weight numeric
+@attribute Bore numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+honda,gas,two,sedan,front,66,2293,3.15,10345,1
+mazda,gas,four,sedan,front,64.2,1945,3.03,6695,1
+audi,gas,four,sedan,front,71.4,3086,3.13,23875,1
+mitsubishi,gas,four,sedan,front,65.4,2405,3.35,8189,1
+honda,gas,two,hatchback,front,64,1956,2.91,7129,1
+dodge,gas,two,hatchback,front,66.3,2811,3.6,12964,3
+toyota,gas,four,sedan,front,64.4,2081,3.19,6938,0
+subaru,gas,four,sedan,front,65.4,2190,3.62,7775,0
+mazda,gas,four,sedan,front,66.5,2410,3.39,10245,0
+subaru,gas,four,sedan,front,65.4,2145,3.62,7126,0
+toyota,gas,four,sedan,front,64.4,2094,3.19,7738,0
+toyota,gas,two,convertible,front,65.6,2975,3.62,17669,2
+volkswagen,diesel,four,sedan,front,65.5,2319,3.01,9495,2
+subaru,gas,two,hatchback,front,63.4,2050,3.62,5118,2
+toyota,diesel,four,sedan,front,66.5,2480,3.27,10698,-1
+volvo,gas,four,sedan,front,68.9,3012,3.58,21485,-1
+volvo,gas,four,sedan,front,67.2,3045,3.62,18420,-2

@@ -1,0 +1,25 @@
+@relation 'wine-weka.filters.unsupervised.attribute.Remove-V-R6,10,14'
+
+@attribute TotalPhenols numeric
+@attribute ColorIntensity numeric
+@attribute Class {1,2,3}
+
+@data
+2.8,4.32,1
+2.63,3.58,1
+2.65,4.7,1
+2.35,4.2,1
+2.75,6.2,1
+3,6.3,1
+2.42,4.6,2
+1.6,2.5,2
+2.55,2,2
+2,2.06,2
+2.9,3.25,2
+2.62,2.6,2
+2.86,2.8,2
+1.3,5.4,3
+2,5.45,3
+1.62,7.1,3
+2.32,4.92,3
+1.54,4.6,3

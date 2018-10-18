@@ -1,0 +1,36 @@
+@relation haberman-weka.filters.unsupervised.attribute.Remove-V-R3-4
+
+@attribute Positive numeric
+@attribute class {positive,negative}
+
+@data
+0,negative
+0,negative
+0,negative
+0,negative
+1,negative
+0,positive
+1,negative
+8,negative
+0,positive
+5,negative
+0,positive
+0,negative
+16,negative
+0,negative
+2,negative
+2,positive
+9,positive
+0,negative
+2,negative
+1,positive
+0,negative
+0,negative
+11,positive
+1,negative
+0,negative
+1,negative
+0,negative
+0,negative
+0,negative
+24,positive

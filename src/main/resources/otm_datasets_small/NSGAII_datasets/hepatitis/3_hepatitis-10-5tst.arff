@@ -1,0 +1,13 @@
+@relation 'hepatitis-weka.filters.unsupervised.attribute.Remove-V-R1,4,20'
+
+@attribute Age numeric
+@attribute Antivirals numeric
+@attribute Class {1,2}
+
+@data
+38,2,2
+42,2,2
+51,1,2
+41,1,2
+33,2,2
+34,1,2
