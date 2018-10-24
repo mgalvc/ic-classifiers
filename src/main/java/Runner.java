@@ -2,7 +2,7 @@ public class Runner {
 
     public void run() throws Exception {
         final ClassLoader classLoader = getClass().getClassLoader();
-        String relation = "crx";
+        String relation = "marketing";
         String datasetPath = "datasets_small/" + relation + "/";
         Classifiers cls = new Classifiers(classLoader.getResource(datasetPath).getPath(), relation);
 
