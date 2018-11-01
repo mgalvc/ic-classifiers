@@ -73,6 +73,10 @@ public class Classifiers {
         for (double[] result: results) {
             System.out.println(Arrays.toString(result));
         }
+
+        System.out.println("AVG Precision: " + (results[0][0] + results[1][0] + results[2][0])/3 );
+        System.out.println("AVG Kappa: " + (results[0][1] + results[1][1] + results[2][1])/3 );
+        System.out.println("AVG Exec Time: " + (results[0][2] + results[1][2] + results[2][2])/3 );
     }
 
     public void runClassifier(ClassifierType type, int executionIndex) throws Exception {
